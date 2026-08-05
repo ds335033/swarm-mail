@@ -8,14 +8,7 @@ export default async (request: Request, context: Context) => {
 
   try {
     const data = await request.json();
-    const { name, email, company, techStack, profileUrl } = data;
-
-    if (!email) {
-      return new Response(JSON.stringify({ error: "Email is required" }), {
-        status: 400,
-        headers: { "Content-Type": "application/json" }
-      });
-    }
+    const { name, email, company, techStack, profileUrl, subscribers, broadcastSubject, broadcastBody } = data;
 
     // You will need to add RESEND_API_KEY to your Netlify Environment Variables
     const RESEND_API_KEY = Deno.env.get("RESEND_API_KEY");
@@ -24,6 +17,49 @@ export default async (request: Request, context: Context) => {
       console.error("Missing RESEND_API_KEY environment variable");
       return new Response(JSON.stringify({ error: "Server configuration error" }), {
         status: 500,
+        headers: { "Content-Type": "application/json" }
+      });
+    }
+
+    // Check if this is a bulk broadcast
+    if (subscribers && Array.isArray(subscribers) && subscribers.length > 0) {
+      // Format payload for Resend Batch API
+      const batchPayload = subscribers.map(sub => ({
+        from: "Swarm Group <onboarding@resend.dev>",
+        to: [sub.email],
+        subject: broadcastSubject || `Update for ${sub.name || 'Subscriber'}`,
+        text: (broadcastBody || "Hello, this is a Swarm Group update.").replace('{name}', sub.name || 'there')
+      }));
+
+      const res = await fetch("https://api.resend.com/emails/batch", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${RESEND_API_KEY}`
+        },
+        body: JSON.stringify(batchPayload),
+      });
+
+      if (res.ok) {
+        const result = await res.json();
+        return new Response(JSON.stringify({ success: true, type: 'batch', data: result }), {
+          status: 200,
+          headers: { "Content-Type": "application/json" }
+        });
+      } else {
+        const err = await res.text();
+        console.error("Resend Batch API Error:", err);
+        return new Response(JSON.stringify({ error: "Failed to send batch emails" }), {
+          status: 500,
+          headers: { "Content-Type": "application/json" }
+        });
+      }
+    }
+
+    // Fallback: Single email sending logic
+    if (!email) {
+      return new Response(JSON.stringify({ error: "Email is required for single send" }), {
+        status: 400,
         headers: { "Content-Type": "application/json" }
       });
     }

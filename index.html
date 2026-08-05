@@ -36,9 +36,11 @@
     <nav class="main-tabs">
       <div class="tabs-container">
         <button class="tab-btn active" data-tab="leads"><i class="fa-solid fa-users"></i> B2B Lead Explorer</button>
+        <button class="tab-btn" data-tab="audience"><i class="fa-solid fa-address-book"></i> Audience CRM</button>
+        <button class="tab-btn" data-tab="agent-fleet"><i class="fa-solid fa-network-wired"></i> Agent Fleet</button>
         <button class="tab-btn" data-tab="social-ads"><i class="fa-solid fa-bullhorn"></i> Social Media Ad Campaigns</button>
-        <button class="tab-btn" data-tab="email-seq"><i class="fa-solid fa-envelope-open-text"></i> 5-Stage Email Sequences</button>
-        <button class="tab-btn" data-tab="linkedin-adk"><i class="fa-brands fa-linkedin"></i> LinkedIn API & ADK Studio</button>
+        <button class="tab-btn" data-tab="email-seq"><i class="fa-solid fa-envelope-open-text"></i> Email Sequences</button>
+        <button class="tab-btn" data-tab="linkedin-adk"><i class="fa-brands fa-linkedin"></i> LinkedIn API</button>
         <button class="tab-btn" data-tab="pricing"><i class="fa-solid fa-tags"></i> Plan Pricing Tiers</button>
       </div>
     </nav>
@@ -115,6 +117,93 @@
 
         <div class="cards-grid" id="socialAdsGrid">
           <!-- Populated via JS -->
+        </div>
+      </section>
+
+      <!-- TAB: AUDIENCE CRM -->
+      <section class="tab-view" id="tab-audience">
+        <div class="glass-panel">
+          <div class="panel-header-flex">
+            <div>
+              <h2><i class="fa-solid fa-address-book"></i> Audience CRM</h2>
+              <p>Manage your subscribers, tags, and segmentation just like Kit.com.</p>
+            </div>
+            <div class="panel-actions">
+              <button class="btn btn-primary" onclick="alert('Import CSV feature coming soon!')">
+                <i class="fa-solid fa-file-import"></i> Import Subscribers
+              </button>
+            </div>
+          </div>
+          
+          <div style="display: flex; gap: 2rem; margin-top: 1rem;">
+            <!-- Sidebar for Tags/Segments -->
+            <div style="width: 250px; border-right: 1px solid var(--border-color); padding-right: 1rem;">
+              <h4 style="color: var(--text-muted); margin-bottom: 1rem;">Segments</h4>
+              <ul style="list-style: none; padding: 0; line-height: 2;">
+                <li><i class="fa-solid fa-users"></i> All Subscribers (1,245)</li>
+                <li><i class="fa-solid fa-filter"></i> Hot Leads (120)</li>
+                <li><i class="fa-solid fa-filter"></i> Needs Follow-up (340)</li>
+              </ul>
+              
+              <h4 style="color: var(--text-muted); margin-top: 2rem; margin-bottom: 1rem;">Tags</h4>
+              <ul style="list-style: none; padding: 0; line-height: 2;">
+                <li><span style="font-size:0.75rem; background:rgba(139,92,246,0.15); color:#c084fc; padding:0.15rem 0.4rem; border-radius:4px;">Downloaded Ebook</span> (450)</li>
+                <li><span style="font-size:0.75rem; background:rgba(139,92,246,0.15); color:#c084fc; padding:0.15rem 0.4rem; border-radius:4px;">Attended Webinar</span> (200)</li>
+                <li><span style="font-size:0.75rem; background:rgba(139,92,246,0.15); color:#c084fc; padding:0.15rem 0.4rem; border-radius:4px;">Customer</span> (50)</li>
+              </ul>
+            </div>
+            
+            <!-- Main Subscriber Table -->
+            <div style="flex-grow: 1;">
+              <table class="data-table" style="width: 100%;">
+                <thead>
+                  <tr>
+                    <th>Subscriber</th>
+                    <th>Status</th>
+                    <th>Tags</th>
+                    <th>Actions</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>
+                      <div style="font-weight: 600;">Jane Doe</div>
+                      <div style="font-size: 0.8rem; color: var(--text-muted);">jane@acme.com</div>
+                    </td>
+                    <td><span style="color: #4ade80;">Confirmed</span></td>
+                    <td><span style="font-size:0.75rem; background:rgba(139,92,246,0.15); color:#c084fc; padding:0.15rem 0.4rem; border-radius:4px;">Hot Lead</span></td>
+                    <td><button class="btn btn-secondary btn-sm">View Profile</button></td>
+                  </tr>
+                  <tr>
+                    <td>
+                      <div style="font-weight: 600;">John Smith</div>
+                      <div style="font-size: 0.8rem; color: var(--text-muted);">john@example.com</div>
+                    </td>
+                    <td><span style="color: #4ade80;">Confirmed</span></td>
+                    <td><span style="font-size:0.75rem; background:rgba(139,92,246,0.15); color:#c084fc; padding:0.15rem 0.4rem; border-radius:4px;">Customer</span></td>
+                    <td><button class="btn btn-secondary btn-sm">View Profile</button></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB: AGENT FLEET -->
+      <section class="tab-view" id="tab-agent-fleet">
+        <div class="section-header">
+          <h2><i class="fa-solid fa-network-wired"></i> Swarm Agent Fleet Command</h2>
+          <p>Deploy and monitor your 40x Super AI Agents working autonomously to scale your corporate powerhouse.</p>
+        </div>
+        
+        <div style="display: flex; gap: 1rem; margin-bottom: 2rem;">
+          <button class="btn btn-primary" onclick="alert('Deploying all 40 agents!')"><i class="fa-solid fa-rocket"></i> Deploy Swarm</button>
+          <button class="btn btn-secondary" onclick="alert('Swarm paused.')"><i class="fa-solid fa-pause"></i> Pause Swarm</button>
+        </div>
+
+        <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem;" id="agentFleetGrid">
+          <!-- Populated by JS -->
         </div>
       </section>
 

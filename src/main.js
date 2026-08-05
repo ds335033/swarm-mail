@@ -208,6 +208,7 @@ document.addEventListener('DOMContentLoaded', () => {
   renderLeadsTable();
   renderSocialAds('all');
   renderEmailSequences();
+  renderAgentFleet();
   setupLinkedInAndADK();
   setupEventListeners();
 });
@@ -438,6 +439,45 @@ function renderLeadsTable() {
   });
 }
 
+// Render Agent Fleet
+function renderAgentFleet() {
+  const grid = document.getElementById('agentFleetGrid');
+  if (!grid) return;
+
+  grid.innerHTML = '';
+  const agentRoles = [
+    'Inbound Lead Scraper', 'Cold Outreach Specialist', 'Email Copywriter',
+    'Social Media Manager', 'Closing Negotiator', 'Data Enrichment Bot',
+    'SEO Content Writer', 'Customer Support Tech', 'Churn Prevention Bot',
+    'Onboarding Specialist'
+  ];
+
+  for (let i = 1; i <= 40; i++) {
+    const role = agentRoles[i % agentRoles.length];
+    const isOnline = Math.random() > 0.2;
+    const tasksCompleted = Math.floor(Math.random() * 500) + 10;
+    
+    const card = document.createElement('div');
+    card.className = 'email-card'; // Reuse styling
+    card.innerHTML = `
+      <div class="email-header" style="justify-content: space-between;">
+        <span class="email-stage-badge" style="background: ${isOnline ? 'rgba(74, 222, 128, 0.15)' : 'rgba(239, 68, 68, 0.15)'}; color: ${isOnline ? '#4ade80' : '#ef4444'}; border: 1px solid ${isOnline ? '#4ade80' : '#ef4444'};">
+          <i class="fa-solid fa-circle"></i> ${isOnline ? 'ONLINE' : 'OFFLINE'}
+        </span>
+        <span style="font-size: 0.82rem; color: var(--text-muted);"><i class="fa-solid fa-microchip"></i> v4.2</span>
+      </div>
+      <h4 style="margin: 0.5rem 0; font-size: 1.1rem; font-weight: 600;"><i class="fa-solid fa-robot" style="color: var(--primary);"></i> Agent ${String(i).padStart(2, '0')}</h4>
+      <div style="font-size: 0.85rem; color: var(--secondary); margin-bottom: 1rem;">Role: ${role}</div>
+      <div style="font-size: 0.8rem; color: var(--text-muted); display: flex; justify-content: space-between; align-items: center;">
+        <span><i class="fa-solid fa-check-double"></i> ${tasksCompleted} Tasks Done</span>
+        <button class="btn btn-sm ${isOnline ? 'btn-secondary' : 'btn-primary'}" onclick="alert('Agent status toggled!')">${isOnline ? 'Pause' : 'Wake'}</button>
+      </div>
+    `;
+    grid.appendChild(card);
+  }
+}
+
+// Setup Event Listeners
 function setupEventListeners() {
   document.getElementById('leadSearchInput').addEventListener('input', renderLeadsTable);
   document.getElementById('industryFilter').addEventListener('change', renderLeadsTable);
