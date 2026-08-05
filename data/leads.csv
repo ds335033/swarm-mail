@@ -1,0 +1,101 @@
+id,company_name,domain,contact_name,contact_title,email,linkedin_url,industry,tech_stack,company_size,lead_score,status
+lead_1001,Apex Commerce Ltd,apexcommerce.store,Sarah Jenkins,Head of Growth,sarah.j@apexcommerce.store,https://linkedin.com/in/sarahjenkins-growth,E-Commerce,"['Shopify Plus', 'Klaviyo', 'Stripe']",50-200,94,New Lead
+lead_1002,CloudSync Technologies,cloudsync-app.io,Marcus Vance,CEO & Founder,marcus@cloudsync-app.io,https://linkedin.com/in/marcusvance-tech,SaaS,"['React', 'PostgreSQL', 'HubSpot']",10-50,98,New Lead
+lead_1003,Nexus Media Agency,nexusmedia.agency,Elena Rostova,VP of Digital Strategy,elena.r@nexusmedia.agency,https://linkedin.com/in/elenarostova,Digital Agency,"['WordPress', 'Google Ads', 'Zapier']",20-100,89,Contacted
+lead_1004,Veloce Fitness Gear,velocefit.com,David Thorne,Chief Marketing Officer,david@velocefit.com,https://linkedin.com/in/davidthorne-cmo,E-Commerce,"['WooCommerce', 'Mailchimp', 'Meta Ads']",100-500,91,New Lead
+lead_1005,EduPulse Academy,edupulse.co,Dr. Aris Thorne,Director of Admissions,aris@edupulse.co,https://linkedin.com/in/draristhorne,EdTech,"['Kajabi', 'Webflow', 'Intercom']",15-50,86,Converted
+lead_1006,Johnson Systems,johnsonsystems.io,Alex Johnson,VP of Growth,alex.j@johnsonsystems.io,https://linkedin.com/in/alexjohnson-growth,FinTech,"['Salesforce', 'Klaviyo', 'WordPress']",1-10,95,New Lead
+lead_1007,Kim Group,kimgroup.io,Alex Kim,VP of Growth,alex.k@kimgroup.io,https://linkedin.com/in/alexkim-growth,E-Commerce,"['Intercom', 'WordPress', 'Zapier', 'Shopify']",1-10,86,New Lead
+lead_1008,Johnson Digital,johnsondigital.io,Pat Johnson,Head of Marketing,pat.j@johnsondigital.io,https://linkedin.com/in/patjohnson-growth,FinTech,"['Shopify', 'HubSpot', 'Salesforce', 'WordPress']",1-10,90,New Lead
+lead_1009,Smith Digital,smithdigital.io,Chris Smith,VP of Growth,chris.s@smithdigital.io,https://linkedin.com/in/chrissmith-growth,Digital Agency,"['Zapier', 'WordPress', 'Shopify', 'Intercom']",50-200,76,New Lead
+lead_1010,Gupta Digital,guptadigital.io,Riley Gupta,Head of Marketing,riley.g@guptadigital.io,https://linkedin.com/in/rileygupta-growth,FinTech,"['React', 'HubSpot', 'Salesforce', 'Shopify']",1-10,97,New Lead
+lead_1011,Gupta Digital,guptadigital.io,Chris Gupta,Operations Director,chris.g@guptadigital.io,https://linkedin.com/in/chrisgupta-growth,E-Commerce,"['Klaviyo', 'Stripe', 'Zapier', 'HubSpot']",50-200,94,New Lead
+lead_1012,Davis Systems,davissystems.io,Taylor Davis,VP of Growth,taylor.d@davissystems.io,https://linkedin.com/in/taylordavis-growth,EdTech,"['Shopify', 'Stripe', 'HubSpot']",50-200,93,New Lead
+lead_1013,Johnson Media,johnsonmedia.io,Pat Johnson,Operations Director,pat.j@johnsonmedia.io,https://linkedin.com/in/patjohnson-growth,FinTech,"['Salesforce', 'Intercom']",1-10,88,New Lead
+lead_1014,Williams Solutions,williamssolutions.io,Dakota Williams,Head of Marketing,dakota.w@williamssolutions.io,https://linkedin.com/in/dakotawilliams-growth,Digital Agency,"['Stripe', 'Salesforce', 'WordPress', 'React']",50-200,87,New Lead
+lead_1015,Miller Labs,millerlabs.io,Jordan Miller,Head of Marketing,jordan.m@millerlabs.io,https://linkedin.com/in/jordanmiller-growth,HealthTech,"['Intercom', 'Klaviyo', 'React']",200-500,96,New Lead
+lead_1016,Johnson Media,johnsonmedia.io,Chris Johnson,Head of Marketing,chris.j@johnsonmedia.io,https://linkedin.com/in/chrisjohnson-growth,FinTech,"['React', 'Klaviyo']",50-200,94,New Lead
+lead_1017,Smith Systems,smithsystems.io,Casey Smith,Head of Marketing,casey.s@smithsystems.io,https://linkedin.com/in/caseysmith-growth,FinTech,"['Salesforce', 'Stripe', 'Klaviyo', 'React']",10-50,99,New Lead
+lead_1018,Johnson Systems,johnsonsystems.io,Alex Johnson,Founder & CEO,alex.j@johnsonsystems.io,https://linkedin.com/in/alexjohnson-growth,FinTech,"['Shopify', 'Intercom']",200-500,90,New Lead
+lead_1019,Wilson Group,wilsongroup.io,Riley Wilson,VP of Growth,riley.w@wilsongroup.io,https://linkedin.com/in/rileywilson-growth,E-Commerce,"['WordPress', 'Stripe', 'Shopify']",50-200,76,New Lead
+lead_1020,Davis Media,davismedia.io,Morgan Davis,Operations Director,morgan.d@davismedia.io,https://linkedin.com/in/morgandavis-growth,HealthTech,"['Stripe', 'Shopify', 'HubSpot']",1-10,97,New Lead
+lead_1021,Miller Solutions,millersolutions.io,Chris Miller,Head of Marketing,chris.m@millersolutions.io,https://linkedin.com/in/chrismiller-growth,HealthTech,"['Zapier', 'Salesforce']",1-10,95,New Lead
+lead_1022,Wilson Group,wilsongroup.io,Riley Wilson,VP of Growth,riley.w@wilsongroup.io,https://linkedin.com/in/rileywilson-growth,Digital Agency,"['Zapier', 'Salesforce']",1-10,79,New Lead
+lead_1023,Miller Labs,millerlabs.io,Taylor Miller,VP of Growth,taylor.m@millerlabs.io,https://linkedin.com/in/taylormiller-growth,FinTech,"['Stripe', 'Intercom', 'Salesforce', 'WordPress']",1-10,80,New Lead
+lead_1024,Williams Labs,williamslabs.io,Alex Williams,Founder & CEO,alex.w@williamslabs.io,https://linkedin.com/in/alexwilliams-growth,E-Commerce,"['WordPress', 'HubSpot', 'React']",50-200,83,New Lead
+lead_1025,Chen Group,chengroup.io,Pat Chen,VP of Growth,pat.c@chengroup.io,https://linkedin.com/in/patchen-growth,E-Commerce,"['Shopify', 'Salesforce', 'Stripe', 'Klaviyo']",10-50,81,New Lead
+lead_1026,Johnson Digital,johnsondigital.io,Alex Johnson,Founder & CEO,alex.j@johnsondigital.io,https://linkedin.com/in/alexjohnson-growth,E-Commerce,"['HubSpot', 'Klaviyo', 'React', 'Stripe']",10-50,78,New Lead
+lead_1027,Kim Systems,kimsystems.io,Pat Kim,Operations Director,pat.k@kimsystems.io,https://linkedin.com/in/patkim-growth,EdTech,"['Stripe', 'Intercom', 'WordPress', 'Zapier']",200-500,88,New Lead
+lead_1028,Smith Media,smithmedia.io,Chris Smith,Operations Director,chris.s@smithmedia.io,https://linkedin.com/in/chrissmith-growth,FinTech,"['HubSpot', 'WordPress', 'Stripe']",10-50,95,New Lead
+lead_1029,Smith Digital,smithdigital.io,Chris Smith,Founder & CEO,chris.s@smithdigital.io,https://linkedin.com/in/chrissmith-growth,SaaS,"['Stripe', 'HubSpot']",50-200,92,New Lead
+lead_1030,Smith Solutions,smithsolutions.io,Casey Smith,Operations Director,casey.s@smithsolutions.io,https://linkedin.com/in/caseysmith-growth,HealthTech,"['Stripe', 'Klaviyo', 'Shopify', 'HubSpot']",200-500,98,New Lead
+lead_1031,Smith Systems,smithsystems.io,Jordan Smith,Founder & CEO,jordan.s@smithsystems.io,https://linkedin.com/in/jordansmith-growth,SaaS,"['React', 'Intercom', 'Zapier']",10-50,78,New Lead
+lead_1032,Smith Digital,smithdigital.io,Pat Smith,Operations Director,pat.s@smithdigital.io,https://linkedin.com/in/patsmith-growth,FinTech,"['HubSpot', 'React', 'Salesforce']",50-200,78,New Lead
+lead_1033,Chen Media,chenmedia.io,Taylor Chen,Operations Director,taylor.c@chenmedia.io,https://linkedin.com/in/taylorchen-growth,HealthTech,"['Intercom', 'Salesforce', 'HubSpot']",1-10,83,New Lead
+lead_1034,Johnson Digital,johnsondigital.io,Morgan Johnson,Head of Marketing,morgan.j@johnsondigital.io,https://linkedin.com/in/morganjohnson-growth,FinTech,"['HubSpot', 'Intercom', 'Shopify']",200-500,95,New Lead
+lead_1035,Davis Media,davismedia.io,Chris Davis,Founder & CEO,chris.d@davismedia.io,https://linkedin.com/in/chrisdavis-growth,FinTech,"['WordPress', 'React', 'HubSpot']",10-50,79,New Lead
+lead_1036,Chen Media,chenmedia.io,Jordan Chen,Operations Director,jordan.c@chenmedia.io,https://linkedin.com/in/jordanchen-growth,HealthTech,"['Zapier', 'React', 'Stripe', 'WordPress']",10-50,86,New Lead
+lead_1037,Miller Solutions,millersolutions.io,Sam Miller,Operations Director,sam.m@millersolutions.io,https://linkedin.com/in/sammiller-growth,EdTech,"['React', 'HubSpot', 'Salesforce', 'Zapier']",10-50,77,New Lead
+lead_1038,Miller Media,millermedia.io,Alex Miller,Head of Marketing,alex.m@millermedia.io,https://linkedin.com/in/alexmiller-growth,SaaS,"['HubSpot', 'Klaviyo', 'Intercom', 'Salesforce']",50-200,94,New Lead
+lead_1039,Miller Systems,millersystems.io,Dakota Miller,Head of Marketing,dakota.m@millersystems.io,https://linkedin.com/in/dakotamiller-growth,FinTech,"['HubSpot', 'WordPress', 'Zapier']",1-10,99,New Lead
+lead_1040,Johnson Media,johnsonmedia.io,Morgan Johnson,Operations Director,morgan.j@johnsonmedia.io,https://linkedin.com/in/morganjohnson-growth,FinTech,"['Salesforce', 'Zapier', 'React']",200-500,98,New Lead
+lead_1041,Gupta Digital,guptadigital.io,Chris Gupta,Founder & CEO,chris.g@guptadigital.io,https://linkedin.com/in/chrisgupta-growth,EdTech,"['Klaviyo', 'Zapier']",50-200,78,New Lead
+lead_1042,Miller Media,millermedia.io,Morgan Miller,Operations Director,morgan.m@millermedia.io,https://linkedin.com/in/morganmiller-growth,E-Commerce,"['Zapier', 'HubSpot']",10-50,82,New Lead
+lead_1043,Kim Digital,kimdigital.io,Dakota Kim,Founder & CEO,dakota.k@kimdigital.io,https://linkedin.com/in/dakotakim-growth,E-Commerce,"['HubSpot', 'Klaviyo']",1-10,88,New Lead
+lead_1044,Patel Solutions,patelsolutions.io,Pat Patel,Operations Director,pat.p@patelsolutions.io,https://linkedin.com/in/patpatel-growth,FinTech,"['Intercom', 'HubSpot', 'Zapier']",10-50,91,New Lead
+lead_1045,Chen Systems,chensystems.io,Jordan Chen,VP of Growth,jordan.c@chensystems.io,https://linkedin.com/in/jordanchen-growth,E-Commerce,"['Zapier', 'React', 'HubSpot']",1-10,87,New Lead
+lead_1046,Wilson Media,wilsonmedia.io,Chris Wilson,Founder & CEO,chris.w@wilsonmedia.io,https://linkedin.com/in/chriswilson-growth,FinTech,"['Intercom', 'Zapier', 'HubSpot']",1-10,80,New Lead
+lead_1047,Chen Media,chenmedia.io,Riley Chen,Head of Marketing,riley.c@chenmedia.io,https://linkedin.com/in/rileychen-growth,HealthTech,"['WordPress', 'Salesforce']",10-50,94,New Lead
+lead_1048,Davis Digital,davisdigital.io,Sam Davis,Head of Marketing,sam.d@davisdigital.io,https://linkedin.com/in/samdavis-growth,Digital Agency,"['Stripe', 'React', 'WordPress']",1-10,87,New Lead
+lead_1049,Johnson Digital,johnsondigital.io,Morgan Johnson,Head of Marketing,morgan.j@johnsondigital.io,https://linkedin.com/in/morganjohnson-growth,FinTech,"['WordPress', 'Zapier', 'Salesforce', 'React']",10-50,91,New Lead
+lead_1050,Chen Media,chenmedia.io,Jordan Chen,VP of Growth,jordan.c@chenmedia.io,https://linkedin.com/in/jordanchen-growth,Digital Agency,"['Klaviyo', 'Intercom', 'Stripe']",50-200,95,New Lead
+lead_1051,Davis Group,davisgroup.io,Dakota Davis,Operations Director,dakota.d@davisgroup.io,https://linkedin.com/in/dakotadavis-growth,E-Commerce,"['Zapier', 'Intercom', 'Klaviyo', 'Stripe']",10-50,90,New Lead
+lead_1052,Gupta Labs,guptalabs.io,Alex Gupta,Head of Marketing,alex.g@guptalabs.io,https://linkedin.com/in/alexgupta-growth,Digital Agency,"['Zapier', 'React', 'Salesforce']",1-10,88,New Lead
+lead_1053,Gupta Media,guptamedia.io,Chris Gupta,Head of Marketing,chris.g@guptamedia.io,https://linkedin.com/in/chrisgupta-growth,FinTech,"['WordPress', 'React']",10-50,84,New Lead
+lead_1054,Smith Media,smithmedia.io,Casey Smith,Operations Director,casey.s@smithmedia.io,https://linkedin.com/in/caseysmith-growth,HealthTech,"['Stripe', 'React', 'Salesforce']",10-50,76,New Lead
+lead_1055,Chen Labs,chenlabs.io,Jordan Chen,Operations Director,jordan.c@chenlabs.io,https://linkedin.com/in/jordanchen-growth,E-Commerce,"['React', 'HubSpot', 'Zapier', 'Intercom']",50-200,91,New Lead
+lead_1056,Chen Solutions,chensolutions.io,Morgan Chen,Founder & CEO,morgan.c@chensolutions.io,https://linkedin.com/in/morganchen-growth,HealthTech,"['Shopify', 'Intercom']",50-200,81,New Lead
+lead_1057,Davis Group,davisgroup.io,Riley Davis,Head of Marketing,riley.d@davisgroup.io,https://linkedin.com/in/rileydavis-growth,SaaS,"['Klaviyo', 'Stripe']",1-10,83,New Lead
+lead_1058,Patel Labs,patellabs.io,Taylor Patel,Head of Marketing,taylor.p@patellabs.io,https://linkedin.com/in/taylorpatel-growth,Digital Agency,"['WordPress', 'Salesforce', 'React']",10-50,80,New Lead
+lead_1059,Wilson Digital,wilsondigital.io,Morgan Wilson,VP of Growth,morgan.w@wilsondigital.io,https://linkedin.com/in/morganwilson-growth,FinTech,"['React', 'Salesforce', 'Zapier']",1-10,88,New Lead
+lead_1060,Kim Systems,kimsystems.io,Morgan Kim,Operations Director,morgan.k@kimsystems.io,https://linkedin.com/in/morgankim-growth,Digital Agency,"['Intercom', 'Salesforce', 'HubSpot', 'WordPress']",10-50,82,New Lead
+lead_1061,Johnson Group,johnsongroup.io,Chris Johnson,Head of Marketing,chris.j@johnsongroup.io,https://linkedin.com/in/chrisjohnson-growth,SaaS,"['Zapier', 'Shopify']",200-500,77,New Lead
+lead_1062,Chen Group,chengroup.io,Pat Chen,Founder & CEO,pat.c@chengroup.io,https://linkedin.com/in/patchen-growth,HealthTech,"['Klaviyo', 'Stripe', 'Intercom']",10-50,78,New Lead
+lead_1063,Gupta Group,guptagroup.io,Morgan Gupta,Operations Director,morgan.g@guptagroup.io,https://linkedin.com/in/morgangupta-growth,Digital Agency,"['Stripe', 'Klaviyo']",10-50,97,New Lead
+lead_1064,Kim Group,kimgroup.io,Riley Kim,Head of Marketing,riley.k@kimgroup.io,https://linkedin.com/in/rileykim-growth,EdTech,"['Intercom', 'Klaviyo', 'React']",1-10,83,New Lead
+lead_1065,Smith Solutions,smithsolutions.io,Casey Smith,Operations Director,casey.s@smithsolutions.io,https://linkedin.com/in/caseysmith-growth,SaaS,"['Stripe', 'WordPress']",200-500,85,New Lead
+lead_1066,Miller Systems,millersystems.io,Sam Miller,Head of Marketing,sam.m@millersystems.io,https://linkedin.com/in/sammiller-growth,E-Commerce,"['Intercom', 'Stripe', 'Shopify']",1-10,83,New Lead
+lead_1067,Davis Systems,davissystems.io,Chris Davis,Head of Marketing,chris.d@davissystems.io,https://linkedin.com/in/chrisdavis-growth,SaaS,"['Shopify', 'Klaviyo', 'Intercom', 'Stripe']",1-10,85,New Lead
+lead_1068,Chen Group,chengroup.io,Morgan Chen,Founder & CEO,morgan.c@chengroup.io,https://linkedin.com/in/morganchen-growth,EdTech,"['Salesforce', 'HubSpot', 'Zapier']",1-10,90,New Lead
+lead_1069,Kim Media,kimmedia.io,Taylor Kim,Operations Director,taylor.k@kimmedia.io,https://linkedin.com/in/taylorkim-growth,E-Commerce,"['Klaviyo', 'React', 'HubSpot', 'WordPress']",10-50,86,New Lead
+lead_1070,Miller Labs,millerlabs.io,Chris Miller,Head of Marketing,chris.m@millerlabs.io,https://linkedin.com/in/chrismiller-growth,E-Commerce,"['Salesforce', 'Shopify', 'Stripe']",50-200,90,New Lead
+lead_1071,Gupta Labs,guptalabs.io,Riley Gupta,Head of Marketing,riley.g@guptalabs.io,https://linkedin.com/in/rileygupta-growth,EdTech,"['Salesforce', 'Intercom']",10-50,96,New Lead
+lead_1072,Miller Media,millermedia.io,Dakota Miller,VP of Growth,dakota.m@millermedia.io,https://linkedin.com/in/dakotamiller-growth,E-Commerce,"['Salesforce', 'WordPress', 'Intercom', 'React']",50-200,93,New Lead
+lead_1073,Williams Solutions,williamssolutions.io,Sam Williams,Founder & CEO,sam.w@williamssolutions.io,https://linkedin.com/in/samwilliams-growth,SaaS,"['Salesforce', 'React']",200-500,88,New Lead
+lead_1074,Johnson Media,johnsonmedia.io,Riley Johnson,Head of Marketing,riley.j@johnsonmedia.io,https://linkedin.com/in/rileyjohnson-growth,SaaS,"['Zapier', 'WordPress', 'Intercom']",1-10,81,New Lead
+lead_1075,Smith Media,smithmedia.io,Chris Smith,Head of Marketing,chris.s@smithmedia.io,https://linkedin.com/in/chrissmith-growth,SaaS,"['Intercom', 'Shopify', 'Zapier', 'Klaviyo']",50-200,96,New Lead
+lead_1076,Gupta Media,guptamedia.io,Casey Gupta,Operations Director,casey.g@guptamedia.io,https://linkedin.com/in/caseygupta-growth,Digital Agency,"['HubSpot', 'React', 'Shopify', 'WordPress']",50-200,88,New Lead
+lead_1077,Davis Digital,davisdigital.io,Sam Davis,Operations Director,sam.d@davisdigital.io,https://linkedin.com/in/samdavis-growth,E-Commerce,"['Stripe', 'Zapier', 'WordPress']",200-500,90,New Lead
+lead_1078,Williams Systems,williamssystems.io,Taylor Williams,Head of Marketing,taylor.w@williamssystems.io,https://linkedin.com/in/taylorwilliams-growth,Digital Agency,"['Salesforce', 'Intercom']",10-50,96,New Lead
+lead_1079,Kim Solutions,kimsolutions.io,Alex Kim,VP of Growth,alex.k@kimsolutions.io,https://linkedin.com/in/alexkim-growth,HealthTech,"['Intercom', 'Salesforce', 'Zapier', 'HubSpot']",50-200,97,New Lead
+lead_1080,Patel Digital,pateldigital.io,Dakota Patel,Head of Marketing,dakota.p@pateldigital.io,https://linkedin.com/in/dakotapatel-growth,FinTech,"['Zapier', 'WordPress', 'React']",200-500,99,New Lead
+lead_1081,Davis Labs,davislabs.io,Alex Davis,Head of Marketing,alex.d@davislabs.io,https://linkedin.com/in/alexdavis-growth,EdTech,"['Zapier', 'Klaviyo', 'Salesforce']",1-10,90,New Lead
+lead_1082,Gupta Group,guptagroup.io,Morgan Gupta,Founder & CEO,morgan.g@guptagroup.io,https://linkedin.com/in/morgangupta-growth,EdTech,"['Shopify', 'Salesforce', 'React', 'Klaviyo']",10-50,78,New Lead
+lead_1083,Chen Systems,chensystems.io,Pat Chen,VP of Growth,pat.c@chensystems.io,https://linkedin.com/in/patchen-growth,FinTech,"['React', 'Klaviyo']",200-500,85,New Lead
+lead_1084,Davis Solutions,davissolutions.io,Chris Davis,VP of Growth,chris.d@davissolutions.io,https://linkedin.com/in/chrisdavis-growth,EdTech,"['Intercom', 'HubSpot']",1-10,77,New Lead
+lead_1085,Williams Group,williamsgroup.io,Riley Williams,Operations Director,riley.w@williamsgroup.io,https://linkedin.com/in/rileywilliams-growth,Digital Agency,"['Intercom', 'Shopify', 'React']",10-50,97,New Lead
+lead_1086,Smith Systems,smithsystems.io,Chris Smith,VP of Growth,chris.s@smithsystems.io,https://linkedin.com/in/chrissmith-growth,Digital Agency,"['Klaviyo', 'Shopify', 'Intercom', 'Salesforce']",200-500,85,New Lead
+lead_1087,Smith Digital,smithdigital.io,Casey Smith,Head of Marketing,casey.s@smithdigital.io,https://linkedin.com/in/caseysmith-growth,HealthTech,"['WordPress', 'Intercom', 'HubSpot', 'Salesforce']",200-500,93,New Lead
+lead_1088,Gupta Labs,guptalabs.io,Jordan Gupta,VP of Growth,jordan.g@guptalabs.io,https://linkedin.com/in/jordangupta-growth,E-Commerce,"['Shopify', 'Klaviyo', 'HubSpot', 'WordPress']",200-500,79,New Lead
+lead_1089,Johnson Systems,johnsonsystems.io,Morgan Johnson,VP of Growth,morgan.j@johnsonsystems.io,https://linkedin.com/in/morganjohnson-growth,EdTech,"['Shopify', 'Salesforce', 'Zapier', 'Intercom']",200-500,94,New Lead
+lead_1090,Gupta Solutions,guptasolutions.io,Dakota Gupta,VP of Growth,dakota.g@guptasolutions.io,https://linkedin.com/in/dakotagupta-growth,EdTech,"['Klaviyo', 'Stripe', 'Zapier', 'HubSpot']",1-10,76,New Lead
+lead_1091,Johnson Systems,johnsonsystems.io,Casey Johnson,Head of Marketing,casey.j@johnsonsystems.io,https://linkedin.com/in/caseyjohnson-growth,FinTech,"['Zapier', 'HubSpot']",200-500,97,New Lead
+lead_1092,Williams Labs,williamslabs.io,Morgan Williams,Founder & CEO,morgan.w@williamslabs.io,https://linkedin.com/in/morganwilliams-growth,SaaS,"['Klaviyo', 'Shopify', 'WordPress']",50-200,96,New Lead
+lead_1093,Davis Digital,davisdigital.io,Morgan Davis,Head of Marketing,morgan.d@davisdigital.io,https://linkedin.com/in/morgandavis-growth,Digital Agency,"['Zapier', 'Klaviyo', 'Shopify', 'Stripe']",200-500,89,New Lead
+lead_1094,Patel Media,patelmedia.io,Dakota Patel,Head of Marketing,dakota.p@patelmedia.io,https://linkedin.com/in/dakotapatel-growth,FinTech,"['Zapier', 'Stripe', 'HubSpot', 'React']",200-500,78,New Lead
+lead_1095,Chen Systems,chensystems.io,Jordan Chen,Head of Marketing,jordan.c@chensystems.io,https://linkedin.com/in/jordanchen-growth,FinTech,"['HubSpot', 'React', 'Salesforce']",1-10,99,New Lead
+lead_1096,Wilson Solutions,wilsonsolutions.io,Sam Wilson,VP of Growth,sam.w@wilsonsolutions.io,https://linkedin.com/in/samwilson-growth,SaaS,"['Klaviyo', 'HubSpot', 'Stripe']",200-500,91,New Lead
+lead_1097,Wilson Solutions,wilsonsolutions.io,Jordan Wilson,Operations Director,jordan.w@wilsonsolutions.io,https://linkedin.com/in/jordanwilson-growth,SaaS,"['Shopify', 'Salesforce', 'React']",10-50,82,New Lead
+lead_1098,Davis Solutions,davissolutions.io,Dakota Davis,Operations Director,dakota.d@davissolutions.io,https://linkedin.com/in/dakotadavis-growth,HealthTech,"['Stripe', 'Zapier', 'HubSpot', 'React']",10-50,88,New Lead
+lead_1099,Smith Group,smithgroup.io,Alex Smith,Founder & CEO,alex.s@smithgroup.io,https://linkedin.com/in/alexsmith-growth,HealthTech,"['Intercom', 'Stripe']",10-50,75,New Lead
+lead_1100,Davis Media,davismedia.io,Morgan Davis,VP of Growth,morgan.d@davismedia.io,https://linkedin.com/in/morgandavis-growth,SaaS,"['Shopify', 'Klaviyo', 'React', 'WordPress']",1-10,93,New Lead

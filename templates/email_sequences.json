@@ -1,0 +1,14 @@
+{
+  "cold_email_sequence": [
+    {
+      "step": 1,
+      "subject": "Automating {company_name}'s growth with AI swarm agents",
+      "body": "Hi {first_name},\n\nI noticed {company_name} is scaling your online business operations using {tech_stack}.\n\nManaging customer engagement, marketing automation, and lead conversion manually can consume hundreds of hours every month.\n\nWe built Swarmy AI (https://swarmy-ai-leads-engine.pages.dev/) to deploy autonomous AI agents that handle lead qualification, customer onboarding, and automated sales outreach 24/7.\n\nWould you be open to a 5-minute preview of how Swarmy AI can boost your conversion rate?\n\nBest regards,\n[Your Name]\nLinkedIn: {linkedin_url}"
+    },
+    {
+      "step": 2,
+      "subject": "Re: Automating {company_name}'s growth with AI swarm agents",
+      "body": "Hi {first_name},\n\nQuick follow-up! Online businesses using Swarmy AI's swarm agents have seen up to 3.4x faster lead response times and a 42% increase in sales pipeline velocity.\n\nYou can check out our live interactive funnel and pick a plan tailored for {company_name} here: https://swarmy-ai-leads-engine.pages.dev/\n\nAlso feel free to connect with me directly on LinkedIn: {linkedin_url}\n\nBest,\n[Your Name]"
+    }
+  ]
+}

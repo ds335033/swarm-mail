@@ -1,0 +1,15 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[dev]
+  targetPort = 3010
+  port = 8888
+
+[[edge_functions]]
+  path = "/api/swarm-mail"
+  function = "swarm-edge"
+
+[[edge_functions]]
+  path = "/api/swarm-agent"
+  function = "swarm-agent"

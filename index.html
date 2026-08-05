@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swarm Group — Growth & Campaign Engine</title>
+  <meta name="description" content="Generate online business leads, run social ad campaigns, send email sequences, and integrate LinkedIn API & ADK agents.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="/src/style.css">
+</head>
+<body>
+  <div id="app">
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="brand">
+        <img src="/swarm-mail-logo.png" alt="Swarm Mail" style="height: 48px; width: auto; object-fit: contain; border-radius: 4px;">
+      </div>
+
+      <div class="nav-links">
+        <a href="https://app.netlify.com/projects/magical-crumble-d5f5f1/deploys" target="_blank" style="display:inline-flex; align-items:center; text-decoration:none;" title="Netlify Live Build & Deploy Status">
+          <img src="https://api.netlify.com/api/v1/badges/394406ca-b7ac-4bdc-9db0-45061f7d0f72/deploy-status" alt="Netlify Deploy Status" style="height:24px; border-radius:4px;">
+        </a>
+        <a href="https://swarmy-ai-leads-engine.pages.dev/" target="_blank" class="funnel-badge">
+          <i class="fa-solid fa-bolt"></i> Live Funnel: <span>swarmy-ai-leads-engine.pages.dev</span>
+        </a>
+        <button class="btn btn-linkedin" id="openLinkedInModal">
+          <i class="fa-brands fa-linkedin"></i> <span id="linkedinBtnText">Connect LinkedIn</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Tab Navigation Header -->
+    <nav class="main-tabs">
+      <div class="tabs-container">
+        <button class="tab-btn active" data-tab="leads"><i class="fa-solid fa-users"></i> B2B Lead Explorer</button>
+        <button class="tab-btn" data-tab="social-ads"><i class="fa-solid fa-bullhorn"></i> Social Media Ad Campaigns</button>
+        <button class="tab-btn" data-tab="email-seq"><i class="fa-solid fa-envelope-open-text"></i> 5-Stage Email Sequences</button>
+        <button class="tab-btn" data-tab="linkedin-adk"><i class="fa-brands fa-linkedin"></i> LinkedIn API & ADK Studio</button>
+        <button class="tab-btn" data-tab="pricing"><i class="fa-solid fa-tags"></i> Plan Pricing Tiers</button>
+      </div>
+    </nav>
+
+    <!-- Main Container -->
+    <main class="container">
+      
+      <!-- TAB 1: B2B LEAD EXPLORER -->
+      <section class="tab-view active" id="tab-leads">
+        <div class="glass-panel">
+          <div class="panel-header-flex">
+            <div>
+              <h2><i class="fa-solid fa-users"></i> B2B Online Business Lead Prospector</h2>
+              <p>Discover, filter, and extract verified online business leads for Swarm Group campaigns.</p>
+            </div>
+            <div class="panel-actions">
+              <button class="btn btn-secondary" id="btnExportCSV">
+                <i class="fa-solid fa-file-csv"></i> Export Leads CSV
+              </button>
+              <button class="btn btn-primary" id="btnRefreshLeads">
+                <i class="fa-solid fa-rotate"></i> Mine 100+ Leads
+              </button>
+            </div>
+          </div>
+
+          <div class="filter-bar">
+            <div class="search-input-group">
+              <i class="fa-solid fa-magnifying-glass"></i>
+              <input type="text" id="leadSearchInput" placeholder="Filter by company, tech stack, domain, or contact name...">
+            </div>
+            <select id="industryFilter" class="select-control">
+              <option value="ALL">All Industries</option>
+              <option value="E-Commerce">E-Commerce</option>
+              <option value="SaaS">SaaS</option>
+              <option value="Digital Agency">Digital Agency</option>
+              <option value="EdTech">EdTech</option>
+            </select>
+          </div>
+
+          <div class="table-responsive">
+            <table class="data-table" id="leadsTable">
+              <thead>
+                <tr>
+                  <th>Company & Domain</th>
+                  <th>Decision Maker</th>
+                  <th>Industry</th>
+                  <th>Tech Stack</th>
+                  <th>Match Score</th>
+                  <th>Outreach & Pitch</th>
+                </tr>
+              </thead>
+              <tbody id="leadsTableBody">
+                <!-- Filled via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 2: SOCIAL MEDIA AD CAMPAIGNS -->
+      <section class="tab-view" id="tab-social-ads">
+        <div class="section-header">
+          <h2><i class="fa-solid fa-bullhorn"></i> World-Class Social Media Ad Campaign</h2>
+          <p>Multi-platform advertising copy, targeting parameters, and creative scripts driving traffic to your Netlify funnel.</p>
+        </div>
+
+        <div class="platform-filter-bar">
+          <button class="platform-chip active" data-platform="all"><i class="fa-solid fa-layer-group"></i> All Platforms</button>
+          <button class="platform-chip" data-platform="linkedin"><i class="fa-brands fa-linkedin"></i> LinkedIn Ads</button>
+          <button class="platform-chip" data-platform="twitter"><i class="fa-brands fa-x-twitter"></i> Twitter / X Ads</button>
+          <button class="platform-chip" data-platform="meta"><i class="fa-brands fa-meta"></i> Meta / Instagram</button>
+          <button class="platform-chip" data-platform="youtube"><i class="fa-brands fa-youtube"></i> YouTube Ads</button>
+        </div>
+
+        <div class="cards-grid" id="socialAdsGrid">
+          <!-- Populated via JS -->
+        </div>
+      </section>
+
+      <!-- TAB 3: 5-STAGE EMAIL SEQUENCES -->
+      <section class="tab-view" id="tab-email-seq">
+        <div class="section-header">
+          <h2><i class="fa-solid fa-envelope-open-text"></i> 5-Stage High-Converting Email Master Campaign</h2>
+          <p>A proven B2B email sequence designed to educate, reverse risks, and convert business owners to Swarm Group plans.</p>
+        </div>
+        
+        <div class="agent-builder-box" style="background: var(--panel-bg); padding: 1.5rem; border: 1px solid var(--border-color); border-radius: 8px; margin-bottom: 2rem;">
+          <h3><i class="fa-solid fa-robot"></i> Swarm Agent Sequence Generator</h3>
+          <p style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1rem;">Deploy a Swarm Agent to generate a custom 5-stage email sequence based on your campaign goals.</p>
+          <div style="display: flex; gap: 1rem;">
+            <input type="text" id="agentPrompt" class="search-bar" placeholder="e.g., Sell our new SEO service to digital agencies..." style="flex-grow: 1;">
+            <button class="btn btn-primary" id="btnGenerateSequence"><i class="fa-solid fa-wand-magic-sparkles"></i> Generate Sequence</button>
+          </div>
+        </div>
+
+        <div class="email-sequence-list" id="emailSequenceContainer">
+          <!-- Populated via JS -->
+        </div>
+      </section>
+
+      <!-- TAB 4: LINKEDIN API & ADK STUDIO -->
+      <section class="tab-view" id="tab-linkedin-adk">
+        <div class="section-header">
+          <h2><i class="fa-brands fa-linkedin"></i> LinkedIn Profile Activation & ADK Studio</h2>
+          <p>Activate your LinkedIn profile connection, manage API credentials, and run Google Antigravity ADK agents.</p>
+        </div>
+
+        <div class="outreach-grid">
+          <!-- LinkedIn Profile Activation Box -->
+          <div class="glass-panel">
+            <h3><i class="fa-solid fa-circle-check" style="color:var(--success);"></i> Quick LinkedIn Profile Activation</h3>
+            <p class="help-text" style="margin-bottom: 1.25rem;">Enter your LinkedIn profile URL below and click <strong>Activate Profile Connection</strong>. This automatically links your profile across all lead outreach pitches, email sequences, and Netlify funnel referrals.</p>
+            
+            <div class="form-group" style="margin-bottom: 1rem;">
+              <label for="liConfigProfile">Your LinkedIn Profile URL *</label>
+              <input type="url" id="liConfigProfile" class="input-control" value="https://linkedin.com/in/darren-paas" required>
+            </div>
+
+            <div style="margin-bottom: 1.5rem;">
+              <button class="btn btn-linkedin btn-block" id="btnQuickActivateLinkedIn">
+                <i class="fa-brands fa-linkedin"></i> Activate Profile Connection
+              </button>
+            </div>
+
+            <hr style="border:none; border-top:1px solid var(--border-glass); margin: 1.25rem 0;">
+
+            <h4 style="font-size:0.95rem; margin-bottom: 0.75rem;"><i class="fa-solid fa-key"></i> Optional: Live API Credentials (for Feed Posting)</h4>
+            <div class="form-group" style="margin-bottom: 0.85rem;">
+              <label>LinkedIn Client ID (App Key)</label>
+              <input type="text" id="liConfigClientId" class="input-control" placeholder="78xxxxxxxxxxxx">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 0.85rem;">
+              <label>LinkedIn Client Secret</label>
+              <input type="password" id="liConfigClientSecret" class="input-control" placeholder="W8xxxxxxxxxxxxxx">
+            </div>
+
+            <div class="form-group" style="margin-bottom: 1.25rem;">
+              <label>OAuth Access Token</label>
+              <input type="password" id="liConfigToken" class="input-control" placeholder="AQVxxxxxxxxxxxxxxxxxxxxxxxx">
+            </div>
+
+            <div style="display:flex; gap:0.85rem;">
+              <button class="btn btn-secondary" id="btnTestLinkedInApi"><i class="fa-solid fa-vial"></i> Test Connection</button>
+              <button class="btn btn-primary" id="btnSaveLinkedInApi"><i class="fa-solid fa-floppy-disk"></i> Save Credentials</button>
+            </div>
+          </div>
+
+          <!-- ADK Agent Swarm Panel -->
+          <div class="glass-panel">
+            <h3><i class="fa-solid fa-robot"></i> ADK (Agent Development Kit) Swarm</h3>
+            <p class="help-text" style="margin-bottom: 1.25rem;">Google Antigravity ADK v2.4.0 active swarm agents managing autonomous lead enrichment & sales funnel execution.</p>
+            
+            <div id="adkAgentsList" class="adk-agents-container">
+              <!-- Dynamically populated via JS -->
+            </div>
+
+            <div style="margin-top: 1.5rem;">
+              <button class="btn btn-primary btn-block" id="btnRunAdkPipeline">
+                <i class="fa-solid fa-play"></i> Trigger ADK Swarm Pipeline
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- TAB 5: PRICING PLANS -->
+      <section class="tab-view" id="tab-pricing">
+        <div class="section-header center">
+          <h2>Swarm Group Subscription Plan Tiers</h2>
+          <p>The plans presented to prospects across social ads, emails, and the Netlify conversion funnel.</p>
+        </div>
+
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <div class="plan-badge">Popular for Solopreneurs</div>
+            <h3 class="plan-name">Starter Swarm</h3>
+            <div class="plan-price">$49 <span>/ month</span></div>
+            <p class="plan-desc">Deploy 3 autonomous agents for lead qualification and basic funnel routing.</p>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-check text-success"></i> 3 Autonomous AI Swarm Agents</li>
+              <li><i class="fa-solid fa-check text-success"></i> 1,000 Automated Lead Connections</li>
+              <li><i class="fa-solid fa-check text-success"></i> Netlify Funnel Integration</li>
+              <li><i class="fa-solid fa-check text-success"></i> Email & LinkedIn Templates</li>
+            </ul>
+            <button class="btn btn-outline btn-block select-plan-btn" data-plan="Starter Swarm" data-price="$49/mo">Pitch Starter Plan ($49/mo)</button>
+          </div>
+
+          <div class="pricing-card featured">
+            <div class="plan-badge badge-featured">BEST VALUE</div>
+            <h3 class="plan-name">Pro Growth Swarm</h3>
+            <div class="plan-price">$149 <span>/ month</span></div>
+            <p class="plan-desc">Full autonomous sales swarm for scaling online store and SaaS revenue.</p>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-check text-success"></i> 15 Autonomous AI Swarm Agents</li>
+              <li><i class="fa-solid fa-check text-success"></i> 10,000 Business Lead Prospecting</li>
+              <li><i class="fa-solid fa-check text-success"></i> Advanced CRM & Webhook Automation</li>
+              <li><i class="fa-solid fa-check text-success"></i> 1-Click LinkedIn Outreach Sync</li>
+            </ul>
+            <button class="btn btn-primary btn-block select-plan-btn" data-plan="Pro Growth Swarm" data-price="$149/mo">Pitch Pro Plan ($149/mo)</button>
+          </div>
+
+          <div class="pricing-card">
+            <div class="plan-badge">High Volume</div>
+            <h3 class="plan-name">Enterprise Swarm</h3>
+            <div class="plan-price">$499 <span>/ month</span></div>
+            <p class="plan-desc">Custom AI swarm cluster with unlimited lead processing and dedicated manager.</p>
+            <ul class="plan-features">
+              <li><i class="fa-solid fa-check text-success"></i> Unlimited AI Agents & Swarms</li>
+              <li><i class="fa-solid fa-check text-success"></i> 100,000+ Lead Mining & Enrichment</li>
+              <li><i class="fa-solid fa-check text-success"></i> Custom Domain & Netlify Deployments</li>
+              <li><i class="fa-solid fa-check text-success"></i> Priority 24/7 Dedicated Support</li>
+            </ul>
+            <button class="btn btn-outline btn-block select-plan-btn" data-plan="Enterprise Swarm" data-price="$499/mo">Pitch Enterprise Plan ($499/mo)</button>
+          </div>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- LinkedIn Config Modal -->
+    <div class="modal-backdrop" id="linkedInModal">
+      <div class="modal-card">
+        <div class="modal-header">
+          <h3><i class="fa-brands fa-linkedin"></i> LinkedIn Profile Activation</h3>
+          <button class="modal-close" id="closeLinkedInModal"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group">
+            <label for="linkedInUrlInput">Your LinkedIn Profile URL</label>
+            <input type="url" id="linkedInUrlInput" class="input-control" value="https://linkedin.com/in/darren-paas">
+          </div>
+          <p class="help-text">Click below to activate your LinkedIn profile across all lead outreach pitches, email sequences, and Netlify referrals.</p>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-linkedin btn-block" id="btnSaveLinkedIn">
+            <i class="fa-solid fa-bolt"></i> Activate Profile Connection
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Outreach Preview Modal -->
+    <div class="modal-backdrop" id="outreachModal">
+      <div class="modal-card modal-lg">
+        <div class="modal-header">
+          <h3><i class="fa-solid fa-paper-plane"></i> Personalized Prospect Pitch</h3>
+          <button class="modal-close" id="closeOutreachModal"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+        <div class="modal-body">
+          <div class="outreach-grid">
+            <div class="outreach-box">
+              <h4>Cold Email Copy (Swarm Group Netlify Link)</h4>
+              <textarea id="emailCopyText" class="code-editor" rows="9" readonly></textarea>
+              <div style="display:flex; gap:0.5rem; margin-top:0.5rem;">
+                <button class="btn btn-secondary btn-sm" id="btnCopyEmail"><i class="fa-solid fa-copy"></i> Copy Email Pitch</button>
+                <button class="btn btn-primary btn-sm" id="btnSendSwarmEmail"><i class="fa-solid fa-paper-plane"></i> Send via Swarm Edge</button>
+              </div>
+            </div>
+
+            <div class="outreach-box">
+              <h4>LinkedIn Connection Message</h4>
+              <textarea id="linkedInCopyText" class="code-editor" rows="9" readonly></textarea>
+              <button class="btn btn-linkedin btn-sm" id="btnCopyLinkedIn"><i class="fa-solid fa-copy"></i> Copy LinkedIn Message</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notifications -->
+    <div id="toastContainer" class="toast-container"></div>
+  </div>
+
+  <script type="module" src="/src/main.js"></script>
+</body>
+</html>

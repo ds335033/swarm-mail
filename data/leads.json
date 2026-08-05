@@ -1,0 +1,1814 @@
+[
+  {
+    "id": "lead_1001",
+    "company_name": "Apex Commerce Ltd",
+    "domain": "apexcommerce.store",
+    "contact_name": "Sarah Jenkins",
+    "contact_title": "Head of Growth",
+    "email": "sarah.j@apexcommerce.store",
+    "linkedin_url": "https://linkedin.com/in/sarahjenkins-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Shopify Plus",
+      "Klaviyo",
+      "Stripe"
+    ],
+    "company_size": "50-200",
+    "lead_score": 94,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1002",
+    "company_name": "CloudSync Technologies",
+    "domain": "cloudsync-app.io",
+    "contact_name": "Marcus Vance",
+    "contact_title": "CEO & Founder",
+    "email": "marcus@cloudsync-app.io",
+    "linkedin_url": "https://linkedin.com/in/marcusvance-tech",
+    "industry": "SaaS",
+    "tech_stack": [
+      "React",
+      "PostgreSQL",
+      "HubSpot"
+    ],
+    "company_size": "10-50",
+    "lead_score": 98,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1003",
+    "company_name": "Nexus Media Agency",
+    "domain": "nexusmedia.agency",
+    "contact_name": "Elena Rostova",
+    "contact_title": "VP of Digital Strategy",
+    "email": "elena.r@nexusmedia.agency",
+    "linkedin_url": "https://linkedin.com/in/elenarostova",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "WordPress",
+      "Google Ads",
+      "Zapier"
+    ],
+    "company_size": "20-100",
+    "lead_score": 89,
+    "status": "Contacted"
+  },
+  {
+    "id": "lead_1004",
+    "company_name": "Veloce Fitness Gear",
+    "domain": "velocefit.com",
+    "contact_name": "David Thorne",
+    "contact_title": "Chief Marketing Officer",
+    "email": "david@velocefit.com",
+    "linkedin_url": "https://linkedin.com/in/davidthorne-cmo",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "WooCommerce",
+      "Mailchimp",
+      "Meta Ads"
+    ],
+    "company_size": "100-500",
+    "lead_score": 91,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1005",
+    "company_name": "EduPulse Academy",
+    "domain": "edupulse.co",
+    "contact_name": "Dr. Aris Thorne",
+    "contact_title": "Director of Admissions",
+    "email": "aris@edupulse.co",
+    "linkedin_url": "https://linkedin.com/in/draristhorne",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Kajabi",
+      "Webflow",
+      "Intercom"
+    ],
+    "company_size": "15-50",
+    "lead_score": 86,
+    "status": "Converted"
+  },
+  {
+    "id": "lead_1006",
+    "company_name": "Johnson Systems",
+    "domain": "johnsonsystems.io",
+    "contact_name": "Alex Johnson",
+    "contact_title": "VP of Growth",
+    "email": "alex.j@johnsonsystems.io",
+    "linkedin_url": "https://linkedin.com/in/alexjohnson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Salesforce",
+      "Klaviyo",
+      "WordPress"
+    ],
+    "company_size": "1-10",
+    "lead_score": 95,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1007",
+    "company_name": "Kim Group",
+    "domain": "kimgroup.io",
+    "contact_name": "Alex Kim",
+    "contact_title": "VP of Growth",
+    "email": "alex.k@kimgroup.io",
+    "linkedin_url": "https://linkedin.com/in/alexkim-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Intercom",
+      "WordPress",
+      "Zapier",
+      "Shopify"
+    ],
+    "company_size": "1-10",
+    "lead_score": 86,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1008",
+    "company_name": "Johnson Digital",
+    "domain": "johnsondigital.io",
+    "contact_name": "Pat Johnson",
+    "contact_title": "Head of Marketing",
+    "email": "pat.j@johnsondigital.io",
+    "linkedin_url": "https://linkedin.com/in/patjohnson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Shopify",
+      "HubSpot",
+      "Salesforce",
+      "WordPress"
+    ],
+    "company_size": "1-10",
+    "lead_score": 90,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1009",
+    "company_name": "Smith Digital",
+    "domain": "smithdigital.io",
+    "contact_name": "Chris Smith",
+    "contact_title": "VP of Growth",
+    "email": "chris.s@smithdigital.io",
+    "linkedin_url": "https://linkedin.com/in/chrissmith-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Zapier",
+      "WordPress",
+      "Shopify",
+      "Intercom"
+    ],
+    "company_size": "50-200",
+    "lead_score": 76,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1010",
+    "company_name": "Gupta Digital",
+    "domain": "guptadigital.io",
+    "contact_name": "Riley Gupta",
+    "contact_title": "Head of Marketing",
+    "email": "riley.g@guptadigital.io",
+    "linkedin_url": "https://linkedin.com/in/rileygupta-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "React",
+      "HubSpot",
+      "Salesforce",
+      "Shopify"
+    ],
+    "company_size": "1-10",
+    "lead_score": 97,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1011",
+    "company_name": "Gupta Digital",
+    "domain": "guptadigital.io",
+    "contact_name": "Chris Gupta",
+    "contact_title": "Operations Director",
+    "email": "chris.g@guptadigital.io",
+    "linkedin_url": "https://linkedin.com/in/chrisgupta-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Klaviyo",
+      "Stripe",
+      "Zapier",
+      "HubSpot"
+    ],
+    "company_size": "50-200",
+    "lead_score": 94,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1012",
+    "company_name": "Davis Systems",
+    "domain": "davissystems.io",
+    "contact_name": "Taylor Davis",
+    "contact_title": "VP of Growth",
+    "email": "taylor.d@davissystems.io",
+    "linkedin_url": "https://linkedin.com/in/taylordavis-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Shopify",
+      "Stripe",
+      "HubSpot"
+    ],
+    "company_size": "50-200",
+    "lead_score": 93,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1013",
+    "company_name": "Johnson Media",
+    "domain": "johnsonmedia.io",
+    "contact_name": "Pat Johnson",
+    "contact_title": "Operations Director",
+    "email": "pat.j@johnsonmedia.io",
+    "linkedin_url": "https://linkedin.com/in/patjohnson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Salesforce",
+      "Intercom"
+    ],
+    "company_size": "1-10",
+    "lead_score": 88,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1014",
+    "company_name": "Williams Solutions",
+    "domain": "williamssolutions.io",
+    "contact_name": "Dakota Williams",
+    "contact_title": "Head of Marketing",
+    "email": "dakota.w@williamssolutions.io",
+    "linkedin_url": "https://linkedin.com/in/dakotawilliams-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Stripe",
+      "Salesforce",
+      "WordPress",
+      "React"
+    ],
+    "company_size": "50-200",
+    "lead_score": 87,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1015",
+    "company_name": "Miller Labs",
+    "domain": "millerlabs.io",
+    "contact_name": "Jordan Miller",
+    "contact_title": "Head of Marketing",
+    "email": "jordan.m@millerlabs.io",
+    "linkedin_url": "https://linkedin.com/in/jordanmiller-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Intercom",
+      "Klaviyo",
+      "React"
+    ],
+    "company_size": "200-500",
+    "lead_score": 96,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1016",
+    "company_name": "Johnson Media",
+    "domain": "johnsonmedia.io",
+    "contact_name": "Chris Johnson",
+    "contact_title": "Head of Marketing",
+    "email": "chris.j@johnsonmedia.io",
+    "linkedin_url": "https://linkedin.com/in/chrisjohnson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "React",
+      "Klaviyo"
+    ],
+    "company_size": "50-200",
+    "lead_score": 94,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1017",
+    "company_name": "Smith Systems",
+    "domain": "smithsystems.io",
+    "contact_name": "Casey Smith",
+    "contact_title": "Head of Marketing",
+    "email": "casey.s@smithsystems.io",
+    "linkedin_url": "https://linkedin.com/in/caseysmith-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Salesforce",
+      "Stripe",
+      "Klaviyo",
+      "React"
+    ],
+    "company_size": "10-50",
+    "lead_score": 99,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1018",
+    "company_name": "Johnson Systems",
+    "domain": "johnsonsystems.io",
+    "contact_name": "Alex Johnson",
+    "contact_title": "Founder & CEO",
+    "email": "alex.j@johnsonsystems.io",
+    "linkedin_url": "https://linkedin.com/in/alexjohnson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Shopify",
+      "Intercom"
+    ],
+    "company_size": "200-500",
+    "lead_score": 90,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1019",
+    "company_name": "Wilson Group",
+    "domain": "wilsongroup.io",
+    "contact_name": "Riley Wilson",
+    "contact_title": "VP of Growth",
+    "email": "riley.w@wilsongroup.io",
+    "linkedin_url": "https://linkedin.com/in/rileywilson-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "WordPress",
+      "Stripe",
+      "Shopify"
+    ],
+    "company_size": "50-200",
+    "lead_score": 76,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1020",
+    "company_name": "Davis Media",
+    "domain": "davismedia.io",
+    "contact_name": "Morgan Davis",
+    "contact_title": "Operations Director",
+    "email": "morgan.d@davismedia.io",
+    "linkedin_url": "https://linkedin.com/in/morgandavis-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Stripe",
+      "Shopify",
+      "HubSpot"
+    ],
+    "company_size": "1-10",
+    "lead_score": 97,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1021",
+    "company_name": "Miller Solutions",
+    "domain": "millersolutions.io",
+    "contact_name": "Chris Miller",
+    "contact_title": "Head of Marketing",
+    "email": "chris.m@millersolutions.io",
+    "linkedin_url": "https://linkedin.com/in/chrismiller-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Zapier",
+      "Salesforce"
+    ],
+    "company_size": "1-10",
+    "lead_score": 95,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1022",
+    "company_name": "Wilson Group",
+    "domain": "wilsongroup.io",
+    "contact_name": "Riley Wilson",
+    "contact_title": "VP of Growth",
+    "email": "riley.w@wilsongroup.io",
+    "linkedin_url": "https://linkedin.com/in/rileywilson-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Zapier",
+      "Salesforce"
+    ],
+    "company_size": "1-10",
+    "lead_score": 79,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1023",
+    "company_name": "Miller Labs",
+    "domain": "millerlabs.io",
+    "contact_name": "Taylor Miller",
+    "contact_title": "VP of Growth",
+    "email": "taylor.m@millerlabs.io",
+    "linkedin_url": "https://linkedin.com/in/taylormiller-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Stripe",
+      "Intercom",
+      "Salesforce",
+      "WordPress"
+    ],
+    "company_size": "1-10",
+    "lead_score": 80,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1024",
+    "company_name": "Williams Labs",
+    "domain": "williamslabs.io",
+    "contact_name": "Alex Williams",
+    "contact_title": "Founder & CEO",
+    "email": "alex.w@williamslabs.io",
+    "linkedin_url": "https://linkedin.com/in/alexwilliams-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "WordPress",
+      "HubSpot",
+      "React"
+    ],
+    "company_size": "50-200",
+    "lead_score": 83,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1025",
+    "company_name": "Chen Group",
+    "domain": "chengroup.io",
+    "contact_name": "Pat Chen",
+    "contact_title": "VP of Growth",
+    "email": "pat.c@chengroup.io",
+    "linkedin_url": "https://linkedin.com/in/patchen-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Shopify",
+      "Salesforce",
+      "Stripe",
+      "Klaviyo"
+    ],
+    "company_size": "10-50",
+    "lead_score": 81,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1026",
+    "company_name": "Johnson Digital",
+    "domain": "johnsondigital.io",
+    "contact_name": "Alex Johnson",
+    "contact_title": "Founder & CEO",
+    "email": "alex.j@johnsondigital.io",
+    "linkedin_url": "https://linkedin.com/in/alexjohnson-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "HubSpot",
+      "Klaviyo",
+      "React",
+      "Stripe"
+    ],
+    "company_size": "10-50",
+    "lead_score": 78,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1027",
+    "company_name": "Kim Systems",
+    "domain": "kimsystems.io",
+    "contact_name": "Pat Kim",
+    "contact_title": "Operations Director",
+    "email": "pat.k@kimsystems.io",
+    "linkedin_url": "https://linkedin.com/in/patkim-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Stripe",
+      "Intercom",
+      "WordPress",
+      "Zapier"
+    ],
+    "company_size": "200-500",
+    "lead_score": 88,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1028",
+    "company_name": "Smith Media",
+    "domain": "smithmedia.io",
+    "contact_name": "Chris Smith",
+    "contact_title": "Operations Director",
+    "email": "chris.s@smithmedia.io",
+    "linkedin_url": "https://linkedin.com/in/chrissmith-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "HubSpot",
+      "WordPress",
+      "Stripe"
+    ],
+    "company_size": "10-50",
+    "lead_score": 95,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1029",
+    "company_name": "Smith Digital",
+    "domain": "smithdigital.io",
+    "contact_name": "Chris Smith",
+    "contact_title": "Founder & CEO",
+    "email": "chris.s@smithdigital.io",
+    "linkedin_url": "https://linkedin.com/in/chrissmith-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Stripe",
+      "HubSpot"
+    ],
+    "company_size": "50-200",
+    "lead_score": 92,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1030",
+    "company_name": "Smith Solutions",
+    "domain": "smithsolutions.io",
+    "contact_name": "Casey Smith",
+    "contact_title": "Operations Director",
+    "email": "casey.s@smithsolutions.io",
+    "linkedin_url": "https://linkedin.com/in/caseysmith-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Stripe",
+      "Klaviyo",
+      "Shopify",
+      "HubSpot"
+    ],
+    "company_size": "200-500",
+    "lead_score": 98,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1031",
+    "company_name": "Smith Systems",
+    "domain": "smithsystems.io",
+    "contact_name": "Jordan Smith",
+    "contact_title": "Founder & CEO",
+    "email": "jordan.s@smithsystems.io",
+    "linkedin_url": "https://linkedin.com/in/jordansmith-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "React",
+      "Intercom",
+      "Zapier"
+    ],
+    "company_size": "10-50",
+    "lead_score": 78,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1032",
+    "company_name": "Smith Digital",
+    "domain": "smithdigital.io",
+    "contact_name": "Pat Smith",
+    "contact_title": "Operations Director",
+    "email": "pat.s@smithdigital.io",
+    "linkedin_url": "https://linkedin.com/in/patsmith-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "HubSpot",
+      "React",
+      "Salesforce"
+    ],
+    "company_size": "50-200",
+    "lead_score": 78,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1033",
+    "company_name": "Chen Media",
+    "domain": "chenmedia.io",
+    "contact_name": "Taylor Chen",
+    "contact_title": "Operations Director",
+    "email": "taylor.c@chenmedia.io",
+    "linkedin_url": "https://linkedin.com/in/taylorchen-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Intercom",
+      "Salesforce",
+      "HubSpot"
+    ],
+    "company_size": "1-10",
+    "lead_score": 83,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1034",
+    "company_name": "Johnson Digital",
+    "domain": "johnsondigital.io",
+    "contact_name": "Morgan Johnson",
+    "contact_title": "Head of Marketing",
+    "email": "morgan.j@johnsondigital.io",
+    "linkedin_url": "https://linkedin.com/in/morganjohnson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "HubSpot",
+      "Intercom",
+      "Shopify"
+    ],
+    "company_size": "200-500",
+    "lead_score": 95,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1035",
+    "company_name": "Davis Media",
+    "domain": "davismedia.io",
+    "contact_name": "Chris Davis",
+    "contact_title": "Founder & CEO",
+    "email": "chris.d@davismedia.io",
+    "linkedin_url": "https://linkedin.com/in/chrisdavis-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "WordPress",
+      "React",
+      "HubSpot"
+    ],
+    "company_size": "10-50",
+    "lead_score": 79,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1036",
+    "company_name": "Chen Media",
+    "domain": "chenmedia.io",
+    "contact_name": "Jordan Chen",
+    "contact_title": "Operations Director",
+    "email": "jordan.c@chenmedia.io",
+    "linkedin_url": "https://linkedin.com/in/jordanchen-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Zapier",
+      "React",
+      "Stripe",
+      "WordPress"
+    ],
+    "company_size": "10-50",
+    "lead_score": 86,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1037",
+    "company_name": "Miller Solutions",
+    "domain": "millersolutions.io",
+    "contact_name": "Sam Miller",
+    "contact_title": "Operations Director",
+    "email": "sam.m@millersolutions.io",
+    "linkedin_url": "https://linkedin.com/in/sammiller-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "React",
+      "HubSpot",
+      "Salesforce",
+      "Zapier"
+    ],
+    "company_size": "10-50",
+    "lead_score": 77,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1038",
+    "company_name": "Miller Media",
+    "domain": "millermedia.io",
+    "contact_name": "Alex Miller",
+    "contact_title": "Head of Marketing",
+    "email": "alex.m@millermedia.io",
+    "linkedin_url": "https://linkedin.com/in/alexmiller-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "HubSpot",
+      "Klaviyo",
+      "Intercom",
+      "Salesforce"
+    ],
+    "company_size": "50-200",
+    "lead_score": 94,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1039",
+    "company_name": "Miller Systems",
+    "domain": "millersystems.io",
+    "contact_name": "Dakota Miller",
+    "contact_title": "Head of Marketing",
+    "email": "dakota.m@millersystems.io",
+    "linkedin_url": "https://linkedin.com/in/dakotamiller-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "HubSpot",
+      "WordPress",
+      "Zapier"
+    ],
+    "company_size": "1-10",
+    "lead_score": 99,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1040",
+    "company_name": "Johnson Media",
+    "domain": "johnsonmedia.io",
+    "contact_name": "Morgan Johnson",
+    "contact_title": "Operations Director",
+    "email": "morgan.j@johnsonmedia.io",
+    "linkedin_url": "https://linkedin.com/in/morganjohnson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Salesforce",
+      "Zapier",
+      "React"
+    ],
+    "company_size": "200-500",
+    "lead_score": 98,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1041",
+    "company_name": "Gupta Digital",
+    "domain": "guptadigital.io",
+    "contact_name": "Chris Gupta",
+    "contact_title": "Founder & CEO",
+    "email": "chris.g@guptadigital.io",
+    "linkedin_url": "https://linkedin.com/in/chrisgupta-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Klaviyo",
+      "Zapier"
+    ],
+    "company_size": "50-200",
+    "lead_score": 78,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1042",
+    "company_name": "Miller Media",
+    "domain": "millermedia.io",
+    "contact_name": "Morgan Miller",
+    "contact_title": "Operations Director",
+    "email": "morgan.m@millermedia.io",
+    "linkedin_url": "https://linkedin.com/in/morganmiller-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Zapier",
+      "HubSpot"
+    ],
+    "company_size": "10-50",
+    "lead_score": 82,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1043",
+    "company_name": "Kim Digital",
+    "domain": "kimdigital.io",
+    "contact_name": "Dakota Kim",
+    "contact_title": "Founder & CEO",
+    "email": "dakota.k@kimdigital.io",
+    "linkedin_url": "https://linkedin.com/in/dakotakim-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "HubSpot",
+      "Klaviyo"
+    ],
+    "company_size": "1-10",
+    "lead_score": 88,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1044",
+    "company_name": "Patel Solutions",
+    "domain": "patelsolutions.io",
+    "contact_name": "Pat Patel",
+    "contact_title": "Operations Director",
+    "email": "pat.p@patelsolutions.io",
+    "linkedin_url": "https://linkedin.com/in/patpatel-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Intercom",
+      "HubSpot",
+      "Zapier"
+    ],
+    "company_size": "10-50",
+    "lead_score": 91,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1045",
+    "company_name": "Chen Systems",
+    "domain": "chensystems.io",
+    "contact_name": "Jordan Chen",
+    "contact_title": "VP of Growth",
+    "email": "jordan.c@chensystems.io",
+    "linkedin_url": "https://linkedin.com/in/jordanchen-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Zapier",
+      "React",
+      "HubSpot"
+    ],
+    "company_size": "1-10",
+    "lead_score": 87,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1046",
+    "company_name": "Wilson Media",
+    "domain": "wilsonmedia.io",
+    "contact_name": "Chris Wilson",
+    "contact_title": "Founder & CEO",
+    "email": "chris.w@wilsonmedia.io",
+    "linkedin_url": "https://linkedin.com/in/chriswilson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Intercom",
+      "Zapier",
+      "HubSpot"
+    ],
+    "company_size": "1-10",
+    "lead_score": 80,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1047",
+    "company_name": "Chen Media",
+    "domain": "chenmedia.io",
+    "contact_name": "Riley Chen",
+    "contact_title": "Head of Marketing",
+    "email": "riley.c@chenmedia.io",
+    "linkedin_url": "https://linkedin.com/in/rileychen-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "WordPress",
+      "Salesforce"
+    ],
+    "company_size": "10-50",
+    "lead_score": 94,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1048",
+    "company_name": "Davis Digital",
+    "domain": "davisdigital.io",
+    "contact_name": "Sam Davis",
+    "contact_title": "Head of Marketing",
+    "email": "sam.d@davisdigital.io",
+    "linkedin_url": "https://linkedin.com/in/samdavis-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Stripe",
+      "React",
+      "WordPress"
+    ],
+    "company_size": "1-10",
+    "lead_score": 87,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1049",
+    "company_name": "Johnson Digital",
+    "domain": "johnsondigital.io",
+    "contact_name": "Morgan Johnson",
+    "contact_title": "Head of Marketing",
+    "email": "morgan.j@johnsondigital.io",
+    "linkedin_url": "https://linkedin.com/in/morganjohnson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "WordPress",
+      "Zapier",
+      "Salesforce",
+      "React"
+    ],
+    "company_size": "10-50",
+    "lead_score": 91,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1050",
+    "company_name": "Chen Media",
+    "domain": "chenmedia.io",
+    "contact_name": "Jordan Chen",
+    "contact_title": "VP of Growth",
+    "email": "jordan.c@chenmedia.io",
+    "linkedin_url": "https://linkedin.com/in/jordanchen-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Klaviyo",
+      "Intercom",
+      "Stripe"
+    ],
+    "company_size": "50-200",
+    "lead_score": 95,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1051",
+    "company_name": "Davis Group",
+    "domain": "davisgroup.io",
+    "contact_name": "Dakota Davis",
+    "contact_title": "Operations Director",
+    "email": "dakota.d@davisgroup.io",
+    "linkedin_url": "https://linkedin.com/in/dakotadavis-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Zapier",
+      "Intercom",
+      "Klaviyo",
+      "Stripe"
+    ],
+    "company_size": "10-50",
+    "lead_score": 90,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1052",
+    "company_name": "Gupta Labs",
+    "domain": "guptalabs.io",
+    "contact_name": "Alex Gupta",
+    "contact_title": "Head of Marketing",
+    "email": "alex.g@guptalabs.io",
+    "linkedin_url": "https://linkedin.com/in/alexgupta-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Zapier",
+      "React",
+      "Salesforce"
+    ],
+    "company_size": "1-10",
+    "lead_score": 88,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1053",
+    "company_name": "Gupta Media",
+    "domain": "guptamedia.io",
+    "contact_name": "Chris Gupta",
+    "contact_title": "Head of Marketing",
+    "email": "chris.g@guptamedia.io",
+    "linkedin_url": "https://linkedin.com/in/chrisgupta-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "WordPress",
+      "React"
+    ],
+    "company_size": "10-50",
+    "lead_score": 84,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1054",
+    "company_name": "Smith Media",
+    "domain": "smithmedia.io",
+    "contact_name": "Casey Smith",
+    "contact_title": "Operations Director",
+    "email": "casey.s@smithmedia.io",
+    "linkedin_url": "https://linkedin.com/in/caseysmith-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Stripe",
+      "React",
+      "Salesforce"
+    ],
+    "company_size": "10-50",
+    "lead_score": 76,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1055",
+    "company_name": "Chen Labs",
+    "domain": "chenlabs.io",
+    "contact_name": "Jordan Chen",
+    "contact_title": "Operations Director",
+    "email": "jordan.c@chenlabs.io",
+    "linkedin_url": "https://linkedin.com/in/jordanchen-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "React",
+      "HubSpot",
+      "Zapier",
+      "Intercom"
+    ],
+    "company_size": "50-200",
+    "lead_score": 91,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1056",
+    "company_name": "Chen Solutions",
+    "domain": "chensolutions.io",
+    "contact_name": "Morgan Chen",
+    "contact_title": "Founder & CEO",
+    "email": "morgan.c@chensolutions.io",
+    "linkedin_url": "https://linkedin.com/in/morganchen-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Shopify",
+      "Intercom"
+    ],
+    "company_size": "50-200",
+    "lead_score": 81,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1057",
+    "company_name": "Davis Group",
+    "domain": "davisgroup.io",
+    "contact_name": "Riley Davis",
+    "contact_title": "Head of Marketing",
+    "email": "riley.d@davisgroup.io",
+    "linkedin_url": "https://linkedin.com/in/rileydavis-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Klaviyo",
+      "Stripe"
+    ],
+    "company_size": "1-10",
+    "lead_score": 83,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1058",
+    "company_name": "Patel Labs",
+    "domain": "patellabs.io",
+    "contact_name": "Taylor Patel",
+    "contact_title": "Head of Marketing",
+    "email": "taylor.p@patellabs.io",
+    "linkedin_url": "https://linkedin.com/in/taylorpatel-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "WordPress",
+      "Salesforce",
+      "React"
+    ],
+    "company_size": "10-50",
+    "lead_score": 80,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1059",
+    "company_name": "Wilson Digital",
+    "domain": "wilsondigital.io",
+    "contact_name": "Morgan Wilson",
+    "contact_title": "VP of Growth",
+    "email": "morgan.w@wilsondigital.io",
+    "linkedin_url": "https://linkedin.com/in/morganwilson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "React",
+      "Salesforce",
+      "Zapier"
+    ],
+    "company_size": "1-10",
+    "lead_score": 88,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1060",
+    "company_name": "Kim Systems",
+    "domain": "kimsystems.io",
+    "contact_name": "Morgan Kim",
+    "contact_title": "Operations Director",
+    "email": "morgan.k@kimsystems.io",
+    "linkedin_url": "https://linkedin.com/in/morgankim-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Intercom",
+      "Salesforce",
+      "HubSpot",
+      "WordPress"
+    ],
+    "company_size": "10-50",
+    "lead_score": 82,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1061",
+    "company_name": "Johnson Group",
+    "domain": "johnsongroup.io",
+    "contact_name": "Chris Johnson",
+    "contact_title": "Head of Marketing",
+    "email": "chris.j@johnsongroup.io",
+    "linkedin_url": "https://linkedin.com/in/chrisjohnson-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Zapier",
+      "Shopify"
+    ],
+    "company_size": "200-500",
+    "lead_score": 77,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1062",
+    "company_name": "Chen Group",
+    "domain": "chengroup.io",
+    "contact_name": "Pat Chen",
+    "contact_title": "Founder & CEO",
+    "email": "pat.c@chengroup.io",
+    "linkedin_url": "https://linkedin.com/in/patchen-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Klaviyo",
+      "Stripe",
+      "Intercom"
+    ],
+    "company_size": "10-50",
+    "lead_score": 78,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1063",
+    "company_name": "Gupta Group",
+    "domain": "guptagroup.io",
+    "contact_name": "Morgan Gupta",
+    "contact_title": "Operations Director",
+    "email": "morgan.g@guptagroup.io",
+    "linkedin_url": "https://linkedin.com/in/morgangupta-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Stripe",
+      "Klaviyo"
+    ],
+    "company_size": "10-50",
+    "lead_score": 97,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1064",
+    "company_name": "Kim Group",
+    "domain": "kimgroup.io",
+    "contact_name": "Riley Kim",
+    "contact_title": "Head of Marketing",
+    "email": "riley.k@kimgroup.io",
+    "linkedin_url": "https://linkedin.com/in/rileykim-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Intercom",
+      "Klaviyo",
+      "React"
+    ],
+    "company_size": "1-10",
+    "lead_score": 83,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1065",
+    "company_name": "Smith Solutions",
+    "domain": "smithsolutions.io",
+    "contact_name": "Casey Smith",
+    "contact_title": "Operations Director",
+    "email": "casey.s@smithsolutions.io",
+    "linkedin_url": "https://linkedin.com/in/caseysmith-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Stripe",
+      "WordPress"
+    ],
+    "company_size": "200-500",
+    "lead_score": 85,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1066",
+    "company_name": "Miller Systems",
+    "domain": "millersystems.io",
+    "contact_name": "Sam Miller",
+    "contact_title": "Head of Marketing",
+    "email": "sam.m@millersystems.io",
+    "linkedin_url": "https://linkedin.com/in/sammiller-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Intercom",
+      "Stripe",
+      "Shopify"
+    ],
+    "company_size": "1-10",
+    "lead_score": 83,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1067",
+    "company_name": "Davis Systems",
+    "domain": "davissystems.io",
+    "contact_name": "Chris Davis",
+    "contact_title": "Head of Marketing",
+    "email": "chris.d@davissystems.io",
+    "linkedin_url": "https://linkedin.com/in/chrisdavis-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Shopify",
+      "Klaviyo",
+      "Intercom",
+      "Stripe"
+    ],
+    "company_size": "1-10",
+    "lead_score": 85,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1068",
+    "company_name": "Chen Group",
+    "domain": "chengroup.io",
+    "contact_name": "Morgan Chen",
+    "contact_title": "Founder & CEO",
+    "email": "morgan.c@chengroup.io",
+    "linkedin_url": "https://linkedin.com/in/morganchen-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Salesforce",
+      "HubSpot",
+      "Zapier"
+    ],
+    "company_size": "1-10",
+    "lead_score": 90,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1069",
+    "company_name": "Kim Media",
+    "domain": "kimmedia.io",
+    "contact_name": "Taylor Kim",
+    "contact_title": "Operations Director",
+    "email": "taylor.k@kimmedia.io",
+    "linkedin_url": "https://linkedin.com/in/taylorkim-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Klaviyo",
+      "React",
+      "HubSpot",
+      "WordPress"
+    ],
+    "company_size": "10-50",
+    "lead_score": 86,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1070",
+    "company_name": "Miller Labs",
+    "domain": "millerlabs.io",
+    "contact_name": "Chris Miller",
+    "contact_title": "Head of Marketing",
+    "email": "chris.m@millerlabs.io",
+    "linkedin_url": "https://linkedin.com/in/chrismiller-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Salesforce",
+      "Shopify",
+      "Stripe"
+    ],
+    "company_size": "50-200",
+    "lead_score": 90,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1071",
+    "company_name": "Gupta Labs",
+    "domain": "guptalabs.io",
+    "contact_name": "Riley Gupta",
+    "contact_title": "Head of Marketing",
+    "email": "riley.g@guptalabs.io",
+    "linkedin_url": "https://linkedin.com/in/rileygupta-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Salesforce",
+      "Intercom"
+    ],
+    "company_size": "10-50",
+    "lead_score": 96,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1072",
+    "company_name": "Miller Media",
+    "domain": "millermedia.io",
+    "contact_name": "Dakota Miller",
+    "contact_title": "VP of Growth",
+    "email": "dakota.m@millermedia.io",
+    "linkedin_url": "https://linkedin.com/in/dakotamiller-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Salesforce",
+      "WordPress",
+      "Intercom",
+      "React"
+    ],
+    "company_size": "50-200",
+    "lead_score": 93,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1073",
+    "company_name": "Williams Solutions",
+    "domain": "williamssolutions.io",
+    "contact_name": "Sam Williams",
+    "contact_title": "Founder & CEO",
+    "email": "sam.w@williamssolutions.io",
+    "linkedin_url": "https://linkedin.com/in/samwilliams-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Salesforce",
+      "React"
+    ],
+    "company_size": "200-500",
+    "lead_score": 88,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1074",
+    "company_name": "Johnson Media",
+    "domain": "johnsonmedia.io",
+    "contact_name": "Riley Johnson",
+    "contact_title": "Head of Marketing",
+    "email": "riley.j@johnsonmedia.io",
+    "linkedin_url": "https://linkedin.com/in/rileyjohnson-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Zapier",
+      "WordPress",
+      "Intercom"
+    ],
+    "company_size": "1-10",
+    "lead_score": 81,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1075",
+    "company_name": "Smith Media",
+    "domain": "smithmedia.io",
+    "contact_name": "Chris Smith",
+    "contact_title": "Head of Marketing",
+    "email": "chris.s@smithmedia.io",
+    "linkedin_url": "https://linkedin.com/in/chrissmith-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Intercom",
+      "Shopify",
+      "Zapier",
+      "Klaviyo"
+    ],
+    "company_size": "50-200",
+    "lead_score": 96,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1076",
+    "company_name": "Gupta Media",
+    "domain": "guptamedia.io",
+    "contact_name": "Casey Gupta",
+    "contact_title": "Operations Director",
+    "email": "casey.g@guptamedia.io",
+    "linkedin_url": "https://linkedin.com/in/caseygupta-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "HubSpot",
+      "React",
+      "Shopify",
+      "WordPress"
+    ],
+    "company_size": "50-200",
+    "lead_score": 88,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1077",
+    "company_name": "Davis Digital",
+    "domain": "davisdigital.io",
+    "contact_name": "Sam Davis",
+    "contact_title": "Operations Director",
+    "email": "sam.d@davisdigital.io",
+    "linkedin_url": "https://linkedin.com/in/samdavis-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Stripe",
+      "Zapier",
+      "WordPress"
+    ],
+    "company_size": "200-500",
+    "lead_score": 90,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1078",
+    "company_name": "Williams Systems",
+    "domain": "williamssystems.io",
+    "contact_name": "Taylor Williams",
+    "contact_title": "Head of Marketing",
+    "email": "taylor.w@williamssystems.io",
+    "linkedin_url": "https://linkedin.com/in/taylorwilliams-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Salesforce",
+      "Intercom"
+    ],
+    "company_size": "10-50",
+    "lead_score": 96,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1079",
+    "company_name": "Kim Solutions",
+    "domain": "kimsolutions.io",
+    "contact_name": "Alex Kim",
+    "contact_title": "VP of Growth",
+    "email": "alex.k@kimsolutions.io",
+    "linkedin_url": "https://linkedin.com/in/alexkim-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Intercom",
+      "Salesforce",
+      "Zapier",
+      "HubSpot"
+    ],
+    "company_size": "50-200",
+    "lead_score": 97,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1080",
+    "company_name": "Patel Digital",
+    "domain": "pateldigital.io",
+    "contact_name": "Dakota Patel",
+    "contact_title": "Head of Marketing",
+    "email": "dakota.p@pateldigital.io",
+    "linkedin_url": "https://linkedin.com/in/dakotapatel-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Zapier",
+      "WordPress",
+      "React"
+    ],
+    "company_size": "200-500",
+    "lead_score": 99,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1081",
+    "company_name": "Davis Labs",
+    "domain": "davislabs.io",
+    "contact_name": "Alex Davis",
+    "contact_title": "Head of Marketing",
+    "email": "alex.d@davislabs.io",
+    "linkedin_url": "https://linkedin.com/in/alexdavis-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Zapier",
+      "Klaviyo",
+      "Salesforce"
+    ],
+    "company_size": "1-10",
+    "lead_score": 90,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1082",
+    "company_name": "Gupta Group",
+    "domain": "guptagroup.io",
+    "contact_name": "Morgan Gupta",
+    "contact_title": "Founder & CEO",
+    "email": "morgan.g@guptagroup.io",
+    "linkedin_url": "https://linkedin.com/in/morgangupta-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Shopify",
+      "Salesforce",
+      "React",
+      "Klaviyo"
+    ],
+    "company_size": "10-50",
+    "lead_score": 78,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1083",
+    "company_name": "Chen Systems",
+    "domain": "chensystems.io",
+    "contact_name": "Pat Chen",
+    "contact_title": "VP of Growth",
+    "email": "pat.c@chensystems.io",
+    "linkedin_url": "https://linkedin.com/in/patchen-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "React",
+      "Klaviyo"
+    ],
+    "company_size": "200-500",
+    "lead_score": 85,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1084",
+    "company_name": "Davis Solutions",
+    "domain": "davissolutions.io",
+    "contact_name": "Chris Davis",
+    "contact_title": "VP of Growth",
+    "email": "chris.d@davissolutions.io",
+    "linkedin_url": "https://linkedin.com/in/chrisdavis-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Intercom",
+      "HubSpot"
+    ],
+    "company_size": "1-10",
+    "lead_score": 77,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1085",
+    "company_name": "Williams Group",
+    "domain": "williamsgroup.io",
+    "contact_name": "Riley Williams",
+    "contact_title": "Operations Director",
+    "email": "riley.w@williamsgroup.io",
+    "linkedin_url": "https://linkedin.com/in/rileywilliams-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Intercom",
+      "Shopify",
+      "React"
+    ],
+    "company_size": "10-50",
+    "lead_score": 97,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1086",
+    "company_name": "Smith Systems",
+    "domain": "smithsystems.io",
+    "contact_name": "Chris Smith",
+    "contact_title": "VP of Growth",
+    "email": "chris.s@smithsystems.io",
+    "linkedin_url": "https://linkedin.com/in/chrissmith-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Klaviyo",
+      "Shopify",
+      "Intercom",
+      "Salesforce"
+    ],
+    "company_size": "200-500",
+    "lead_score": 85,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1087",
+    "company_name": "Smith Digital",
+    "domain": "smithdigital.io",
+    "contact_name": "Casey Smith",
+    "contact_title": "Head of Marketing",
+    "email": "casey.s@smithdigital.io",
+    "linkedin_url": "https://linkedin.com/in/caseysmith-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "WordPress",
+      "Intercom",
+      "HubSpot",
+      "Salesforce"
+    ],
+    "company_size": "200-500",
+    "lead_score": 93,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1088",
+    "company_name": "Gupta Labs",
+    "domain": "guptalabs.io",
+    "contact_name": "Jordan Gupta",
+    "contact_title": "VP of Growth",
+    "email": "jordan.g@guptalabs.io",
+    "linkedin_url": "https://linkedin.com/in/jordangupta-growth",
+    "industry": "E-Commerce",
+    "tech_stack": [
+      "Shopify",
+      "Klaviyo",
+      "HubSpot",
+      "WordPress"
+    ],
+    "company_size": "200-500",
+    "lead_score": 79,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1089",
+    "company_name": "Johnson Systems",
+    "domain": "johnsonsystems.io",
+    "contact_name": "Morgan Johnson",
+    "contact_title": "VP of Growth",
+    "email": "morgan.j@johnsonsystems.io",
+    "linkedin_url": "https://linkedin.com/in/morganjohnson-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Shopify",
+      "Salesforce",
+      "Zapier",
+      "Intercom"
+    ],
+    "company_size": "200-500",
+    "lead_score": 94,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1090",
+    "company_name": "Gupta Solutions",
+    "domain": "guptasolutions.io",
+    "contact_name": "Dakota Gupta",
+    "contact_title": "VP of Growth",
+    "email": "dakota.g@guptasolutions.io",
+    "linkedin_url": "https://linkedin.com/in/dakotagupta-growth",
+    "industry": "EdTech",
+    "tech_stack": [
+      "Klaviyo",
+      "Stripe",
+      "Zapier",
+      "HubSpot"
+    ],
+    "company_size": "1-10",
+    "lead_score": 76,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1091",
+    "company_name": "Johnson Systems",
+    "domain": "johnsonsystems.io",
+    "contact_name": "Casey Johnson",
+    "contact_title": "Head of Marketing",
+    "email": "casey.j@johnsonsystems.io",
+    "linkedin_url": "https://linkedin.com/in/caseyjohnson-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Zapier",
+      "HubSpot"
+    ],
+    "company_size": "200-500",
+    "lead_score": 97,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1092",
+    "company_name": "Williams Labs",
+    "domain": "williamslabs.io",
+    "contact_name": "Morgan Williams",
+    "contact_title": "Founder & CEO",
+    "email": "morgan.w@williamslabs.io",
+    "linkedin_url": "https://linkedin.com/in/morganwilliams-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Klaviyo",
+      "Shopify",
+      "WordPress"
+    ],
+    "company_size": "50-200",
+    "lead_score": 96,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1093",
+    "company_name": "Davis Digital",
+    "domain": "davisdigital.io",
+    "contact_name": "Morgan Davis",
+    "contact_title": "Head of Marketing",
+    "email": "morgan.d@davisdigital.io",
+    "linkedin_url": "https://linkedin.com/in/morgandavis-growth",
+    "industry": "Digital Agency",
+    "tech_stack": [
+      "Zapier",
+      "Klaviyo",
+      "Shopify",
+      "Stripe"
+    ],
+    "company_size": "200-500",
+    "lead_score": 89,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1094",
+    "company_name": "Patel Media",
+    "domain": "patelmedia.io",
+    "contact_name": "Dakota Patel",
+    "contact_title": "Head of Marketing",
+    "email": "dakota.p@patelmedia.io",
+    "linkedin_url": "https://linkedin.com/in/dakotapatel-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "Zapier",
+      "Stripe",
+      "HubSpot",
+      "React"
+    ],
+    "company_size": "200-500",
+    "lead_score": 78,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1095",
+    "company_name": "Chen Systems",
+    "domain": "chensystems.io",
+    "contact_name": "Jordan Chen",
+    "contact_title": "Head of Marketing",
+    "email": "jordan.c@chensystems.io",
+    "linkedin_url": "https://linkedin.com/in/jordanchen-growth",
+    "industry": "FinTech",
+    "tech_stack": [
+      "HubSpot",
+      "React",
+      "Salesforce"
+    ],
+    "company_size": "1-10",
+    "lead_score": 99,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1096",
+    "company_name": "Wilson Solutions",
+    "domain": "wilsonsolutions.io",
+    "contact_name": "Sam Wilson",
+    "contact_title": "VP of Growth",
+    "email": "sam.w@wilsonsolutions.io",
+    "linkedin_url": "https://linkedin.com/in/samwilson-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Klaviyo",
+      "HubSpot",
+      "Stripe"
+    ],
+    "company_size": "200-500",
+    "lead_score": 91,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1097",
+    "company_name": "Wilson Solutions",
+    "domain": "wilsonsolutions.io",
+    "contact_name": "Jordan Wilson",
+    "contact_title": "Operations Director",
+    "email": "jordan.w@wilsonsolutions.io",
+    "linkedin_url": "https://linkedin.com/in/jordanwilson-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Shopify",
+      "Salesforce",
+      "React"
+    ],
+    "company_size": "10-50",
+    "lead_score": 82,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1098",
+    "company_name": "Davis Solutions",
+    "domain": "davissolutions.io",
+    "contact_name": "Dakota Davis",
+    "contact_title": "Operations Director",
+    "email": "dakota.d@davissolutions.io",
+    "linkedin_url": "https://linkedin.com/in/dakotadavis-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Stripe",
+      "Zapier",
+      "HubSpot",
+      "React"
+    ],
+    "company_size": "10-50",
+    "lead_score": 88,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1099",
+    "company_name": "Smith Group",
+    "domain": "smithgroup.io",
+    "contact_name": "Alex Smith",
+    "contact_title": "Founder & CEO",
+    "email": "alex.s@smithgroup.io",
+    "linkedin_url": "https://linkedin.com/in/alexsmith-growth",
+    "industry": "HealthTech",
+    "tech_stack": [
+      "Intercom",
+      "Stripe"
+    ],
+    "company_size": "10-50",
+    "lead_score": 75,
+    "status": "New Lead"
+  },
+  {
+    "id": "lead_1100",
+    "company_name": "Davis Media",
+    "domain": "davismedia.io",
+    "contact_name": "Morgan Davis",
+    "contact_title": "VP of Growth",
+    "email": "morgan.d@davismedia.io",
+    "linkedin_url": "https://linkedin.com/in/morgandavis-growth",
+    "industry": "SaaS",
+    "tech_stack": [
+      "Shopify",
+      "Klaviyo",
+      "React",
+      "WordPress"
+    ],
+    "company_size": "1-10",
+    "lead_score": 93,
+    "status": "New Lead"
+  }
+]

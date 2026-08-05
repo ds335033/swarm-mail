@@ -1,0 +1,59 @@
+{
+  "campaign_name": "Swarmy AI World-Class B2B Acquisition Campaign",
+  "target_funnel_url": "https://swarmy-ai-leads-engine.pages.dev/",
+  "linkedin_profile_url": "https://linkedin.com/in/darren-paas",
+  "platforms": {
+    "linkedin": [
+      {
+        "id": "li_ad_01",
+        "format": "Single Image / Sponsored Content",
+        "headline": "Stop Losing 60% of Online Business Leads to Slow Response Times",
+        "primary_text": "9 out of 10 online store and SaaS leads go cold within 15 minutes of non-response. Swarmy AI deploys autonomous agent swarms that qualify prospects, handle objections, and close plan purchases 24/7.\n\n⚡ Zero coding required.\n⚡ 3.4x higher pipeline velocity.\n⚡ Seamless CRM & Netlify funnel integration.",
+        "cta": "Start Free Preview",
+        "targeting": "Founders, CEOs, CMOs, VPs of Growth (Company size: 10-500)",
+        "destination_url": "https://swarmy-ai-leads-engine.pages.dev/"
+      },
+      {
+        "id": "li_ad_02",
+        "format": "InMail / Conversation Ad",
+        "headline": "Exclusive Preview: Deploying AI Swarms for {company_name}",
+        "primary_text": "Hi {first_name},\n\nManaging lead acquisition manually can easily consume 40+ hours every month.\n\nWe built Swarmy AI to solve this exact problem: autonomous AI agents that act as your 24/7 sales team, qualifying leads and guiding prospects to purchase.\n\nWould you be open to checking out our live funnel demo?\n\nhttps://swarmy-ai-leads-engine.pages.dev/",
+        "cta": "Explore Swarmy AI",
+        "targeting": "E-commerce Founders, SaaS Executives",
+        "destination_url": "https://swarmy-ai-leads-engine.pages.dev/"
+      }
+    ],
+    "twitter": [
+      {
+        "id": "tw_ad_01",
+        "format": "Viral B2B Thread & Promoted Tweet",
+        "primary_text": "Traditional chatbots are dead. AI Agent Swarms are replacing 40-hour sales workweeks for online business owners.\n\nHere is how Swarmy AI automates lead qualification and closes $149/mo subscribers automatically 🧵👇\n\n1/ Autonomous lead discovery\n2/ Dynamic funnel routing\n3/ Instant objection handling\n\nTry it live: https://swarmy-ai-leads-engine.pages.dev/",
+        "cta": "Read Thread & Try Demo",
+        "targeting": "Tech Founders, #VibeCoding, IndieHackers, Ecom Growth",
+        "destination_url": "https://swarmy-ai-leads-engine.pages.dev/"
+      }
+    ],
+    "meta": [
+      {
+        "id": "meta_ad_01",
+        "format": "Instagram & Facebook Carousel",
+        "headline": "Put Your Online Business Growth on Autopilot",
+        "primary_text": "Turn website visitors into paying plan subscribers with Swarmy AI. Deploy autonomous sales agents in under 5 minutes.",
+        "cta": "Claim Your Plan",
+        "targeting": "E-Commerce Merchants, Digital Agency Owners",
+        "destination_url": "https://swarmy-ai-leads-engine.pages.dev/"
+      }
+    ],
+    "youtube": [
+      {
+        "id": "yt_ad_01",
+        "format": "30-Second Video Ad Script",
+        "headline": "What if your sales team never slept?",
+        "primary_text": "[SCENE: Sleek dark-mode dashboard showing Swarmy AI swarms converting leads in real-time]\n\nVOICEOVER: 'While your competitors sleep, Swarmy AI swarms are qualifying leads, answering buyer questions, and booking plans for your online business.'\n\n[TEXT ON SCREEN: 3.4x Conversion Increase | 5-Minute Setup]\n\nVOICEOVER: 'Click the link below to launch your Swarmy AI funnel now.'",
+        "cta": "Watch Demo",
+        "targeting": "Business Software, Marketing & Sales Tools Audiences",
+        "destination_url": "https://swarmy-ai-leads-engine.pages.dev/"
+      }
+    ]
+  }
+}

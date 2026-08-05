@@ -1,0 +1,12 @@
+{
+  "linkedin_messages": [
+    {
+      "type": "connection_request",
+      "text": "Hi {first_name}, impressed by what you're building at {company_name}! I work on AI swarm automation for online businesses (Swarmy AI). Would love to connect and share insights."
+    },
+    {
+      "type": "welcome_message",
+      "text": "Thanks for connecting, {first_name}! If you're interested in automating sales funnels and lead qualification for {company_name}, check out our live demo at https://swarmy-ai-leads-engine.pages.dev/. Would love your thoughts!"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "app_name": "Swarmy AI Growth App",
+  "client_id": "d0652a5767274181b6b8ef4bc74fb886",
+  "client_secret": "[REDACTED]",
+  "access_token": "[REDACTED]",
+  "user_profile_url": "https://linkedin.com/in/darren-paas",
+  "netlify_funnel_url": "https://swarmy-ai-leads-engine.pages.dev/",
+  "status": "Fully Authenticated & Integrated"
+}

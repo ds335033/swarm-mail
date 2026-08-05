@@ -1,0 +1,47 @@
+{
+  "campaign_name": "Swarmy AI 5-Stage Master Conversion Sequence",
+  "funnel_link": "https://swarmy-ai-leads-engine.pages.dev/",
+  "linkedin_profile": "https://linkedin.com/in/darren-paas",
+  "sequence": [
+    {
+      "stage": 1,
+      "name": "The Disruptive Hook",
+      "send_delay": "Immediate",
+      "subject": "Why manual lead response is costing {company_name} $10k+/month",
+      "body_plain": "Hi {first_name},\n\nDid you know 78% of B2B online business leads buy from the vendor that responds first?\n\nIf {company_name} relies on manual forms or delayed email follow-ups, high-value buyers are slipping through the cracks.\n\nWe created Swarmy AI (https://swarmy-ai-leads-engine.pages.dev/) to eliminate lead drop-off completely. Our autonomous AI swarm agents qualify prospects, answer technical questions, and guide them directly to purchase a plan 24/7.\n\nCheck out our live conversion engine in action: https://swarmy-ai-leads-engine.pages.dev/\n\nAlso, let's connect on LinkedIn: {linkedin_url}\n\nBest regards,\n[Your Name]\nSwarmy AI Team",
+      "body_html": "<p>Hi <strong>{first_name}</strong>,</p><p>Did you know 78% of B2B online business leads buy from the vendor that responds first?</p><p>If <strong>{company_name}</strong> relies on manual follow-ups, high-value buyers are slipping through the cracks.</p><p>We created <a href='https://swarmy-ai-leads-engine.pages.dev/'>Swarmy AI</a> to eliminate lead drop-off completely. Our autonomous AI swarms qualify prospects and close sales 24/7.</p><p><a href='https://swarmy-ai-leads-engine.pages.dev/' style='background:#8b5cf6; color:white; padding:10px 20px; border-radius:6px; text-decoration:none; display:inline-block;'>Explore Swarmy AI Live Demo</a></p><p>Connect on LinkedIn: <a href='{linkedin_url}'>{linkedin_url}</a></p>"
+    },
+    {
+      "stage": 2,
+      "name": "Social Proof & Case Study",
+      "send_delay": "Day 2",
+      "subject": "Case Study: How online businesses boost conversion by 3.4x",
+      "body_plain": "Hi {first_name},\n\nWhen online businesses integrate Swarmy AI into their tech stack ({tech_stack}), three major shifts happen:\n\n1. Response time drops from hours to < 3 seconds.\n2. Lead qualification accuracy hits 98.4%.\n3. Sales pipeline velocity increases by 3.4x.\n\nYou can select the plan that fits {company_name}'s growth trajectory ($49/mo Starter, $149/mo Pro Growth, or $499/mo Enterprise) directly on our live portal:\n\n👉 https://swarmy-ai-leads-engine.pages.dev/\n\nLet's connect: {linkedin_url}\n\nCheers,\n[Your Name]",
+      "body_html": "<p>Hi <strong>{first_name}</strong>,</p><p>When online businesses integrate Swarmy AI into their tech stack (<em>{tech_stack}</em>), three major shifts happen:</p><ul><li>Response time drops to &lt; 3 seconds</li><li>Qualification accuracy hits 98.4%</li><li>Pipeline velocity increases by 3.4x</li></ul><p><a href='https://swarmy-ai-leads-engine.pages.dev/'>Select Your Plan ($49/mo - $499/mo)</a></p>"
+    },
+    {
+      "stage": 3,
+      "name": "Inside the AI Swarm Engine",
+      "send_delay": "Day 4",
+      "subject": "Inside Swarmy AI: How autonomous agents close deals for {company_name}",
+      "body_plain": "Hi {first_name},\n\nTraditional chatbots follow rigid, robotic decision trees that frustrate buyers. Swarmy AI is fundamentally different.\n\nOur multi-agent swarms collaborate dynamically:\n- Agent 1 analyzes visitor intent & company size.\n- Agent 2 resolves objections & presents tailored features.\n- Agent 3 handles plan checkout & CRM synchronization.\n\nTest the full experience live right now:\n👉 https://swarmy-ai-leads-engine.pages.dev/\n\nLinkedIn: {linkedin_url}",
+      "body_html": "<p>Hi <strong>{first_name}</strong>,</p><p>Traditional chatbots follow rigid decision trees. Swarmy AI is fundamentally different—deploying collaborative multi-agent swarms.</p><p><a href='https://swarmy-ai-leads-engine.pages.dev/'>Try the Live Engine</a></p>"
+    },
+    {
+      "stage": 4,
+      "name": "Risk Reversal & 5-Min Setup",
+      "send_delay": "Day 6",
+      "subject": "Zero coding required: Launch Swarmy AI for {company_name} in 5 mins",
+      "body_plain": "Hi {first_name},\n\nOne common question we get from founders: 'Will this take weeks of dev work to set up?'\n\nThe answer is a resounding NO. Swarmy AI requires zero coding experience and connects directly to your existing Netlify, web, or CRM stack in under 5 minutes.\n\nClaim your plan and launch today:\n👉 https://swarmy-ai-leads-engine.pages.dev/\n\nBest,\n[Your Name]\nLinkedIn: {linkedin_url}",
+      "body_html": "<p>Hi <strong>{first_name}</strong>,</p><p>Swarmy AI requires zero coding experience and connects directly to your stack in under 5 minutes.</p><p><a href='https://swarmy-ai-leads-engine.pages.dev/'>Launch Swarmy AI Now</a></p>"
+    },
+    {
+      "stage": 5,
+      "name": "Urgent Call to Action & Plan Selection",
+      "send_delay": "Day 8",
+      "subject": "Final invitation: Scale {company_name} with Swarmy AI today",
+      "body_plain": "Hi {first_name},\n\nThis is my final note regarding Swarmy AI for {company_name}.\n\nIf you're ready to put your lead qualification, customer conversion, and sales pipeline on 24/7 autopilot, pick your plan now:\n\n🚀 Starter Swarm ($49/mo)\n🚀 Pro Growth Swarm ($149/mo)\n🚀 Enterprise Swarm ($499/mo)\n\n👉 Access live plans: https://swarmy-ai-leads-engine.pages.dev/\n\nLooking forward to seeing your growth,\n[Your Name]\nLinkedIn: {linkedin_url}",
+      "body_html": "<p>Hi <strong>{first_name}</strong>,</p><p>Ready to put lead qualification and sales on autopilot?</p><p><a href='https://swarmy-ai-leads-engine.pages.dev/'>Pick Your Swarmy AI Plan Now</a></p>"
+    }
+  ]
+}
